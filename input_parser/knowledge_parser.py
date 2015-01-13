@@ -48,8 +48,6 @@ class KB_parser:
         result = []
         consumed = []
         for i in random.sample(range(0, size-1),count):
-            print "i", str(i)
-            print "random player:",self.character_data[i]
             result.append(self.character_data[i])
         return result
 
@@ -59,7 +57,11 @@ if __name__ == "__main__":
     k = KB_parser()
     print "Got game manager: "+k.random_manager()["Character"]
     n = 3
-    print "Got "+str(n)+" players: "+str(k.random_players(3))
+    #print "Got "+str(n)+" players: "+str(k.random_players(3))
+    print
+    print "Got "+str(n)+" players:"
     #for k.ge
+    for player in k.random_players(3):
+        print player["Character"]
 
 
