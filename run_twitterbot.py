@@ -1,4 +1,4 @@
-
+import random
 
 def read_dataset():
     from cards.cards import load_cards_dict
@@ -9,7 +9,6 @@ def read_dataset():
     return black_cards, white_cards
 
 def make_selection(black_cards, white_cards, n=3):
-    import random
     white_cards_num = random.sample(range(0, len(white_cards)), n)
     white_cards_selection = dict([(white_cards.keys()[i], white_cards[white_cards.keys()[i]]) for i in white_cards_num])
     
@@ -27,13 +26,12 @@ def combine_quotes(bc_selection, wc_selection):
     answers = {}
     for person, quotes in wc_selection.iteritems():
         quote = quotes[random.randint(0, len(quotes)-1)]
-        answers[person] = bc_quote.replace("___", quote)
+        answers[person] = bc_quote.replace("___", quote).lower()
 
     return question, answers
 
-def post_to_twitter(question, answers):
+def post_to_twitter(question, answers, time_start=5, time_end=10):
     from tweet import post_tweet
-    import random
     
     main_name = question.keys()[0]
     quote = question[main_name]
@@ -43,27 +41,23 @@ def post_to_twitter(question, answers):
     for name, quote in answers.iteritems():
         post_tweet(name + ": " + quote)
         names.append(name)
-        sleep(5)
+        sleep(random.randrange(time_start, time_end))
 
     rand_name = names[random.randint(0, len(names)-1)]
     post_tweet(main_name + ": " + rand_name + " is the one I like the most. Others are stupid.")
 
 if __name__ == '__main__':
     from time import sleep
-    
 
     black_cards, white_cards = read_dataset()
 
     while 1:
+        if random.random() > random.random():
+            black_cards, white_cards = white_cards, black_cards
+
         bc_selection, wc_selection = make_selection(black_cards, white_cards)
         question, answers = combine_quotes(bc_selection, wc_selection)
         post_to_twitter(question, answers)
-
-
-
-        #print "black_cards", bc_selection.keys()
-        #print "white_cards", wc_selection.keys()
-        #print 
 
         sleep(60)
         
