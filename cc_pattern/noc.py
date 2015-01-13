@@ -168,6 +168,11 @@ NOC = "Veale's The NOC List.xlsx"
 # Domains, Genres, Fictive Status, Portrayed By, Creator, Creation, Group Affiliation,
 # Fictional World, Category, Negative Talking Points, Positive Talking Points
 
+def parse_rows(path):
+    rows = list(assoc(xlsx(pd(path)))) # 1 + 2
+    #rows = xlsx(pd(path)) # 1 + 2
+    return rows
+
 def parse(path):
     # 1) Parse the Excel sheet at the given path (xlsx()).
     # 2) Map the list of lists to list of dicts (assoc()).
@@ -185,6 +190,7 @@ def parse(path):
 
 noc = parse(NOC)
 
+"""
 print "How many characters are in the NOC list?"
 print "----------------------------------------"
 print len(noc)
@@ -264,3 +270,4 @@ for r in noc:
 for count, p in freq(properties, top=25):
     print count, "\t", p
 print
+"""
