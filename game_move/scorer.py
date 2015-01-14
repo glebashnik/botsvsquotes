@@ -1,7 +1,7 @@
 from pattern.vector import Document
 from pattern.vector import distance
 from pattern.text.en import sentiment, wordnet
-import pandas as pd
+#import pandas as pd
 from os import path
 import string
 

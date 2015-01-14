@@ -3,7 +3,6 @@ from cards import card
 from os import path
 import operator
 import string 
-import timeit
 
 from gensim.models import Word2Vec
 from cards.io import load_cards_dict
