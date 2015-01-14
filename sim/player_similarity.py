@@ -18,8 +18,8 @@ class Sim:
     GENRE = ("Genres", True)
     CAT = ("Category", True)
 
-    W2V_SMALL = "../data/w2v_7.model"
-    W2V_MEDIUM = "../data/w2v_103.model"
+    W2V_SMALL = "data/w2v_7.model"
+    W2V_MEDIUM = "data/w2v_103.model"
     W2V_BIG = "/home/alm/data/w2v-googlenews-corpus/GoogleNews-vectors-negative300.bin.gz"
 
     def __init__(self):
