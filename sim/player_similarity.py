@@ -121,7 +121,7 @@ class Sim:
 
         features = [self.POS[0], self.CAT[0], self.GENRE[0], self.NEG[0]]
         mname = manager["Character"]
-        print mname +" is choosing players..."
+        #print mname +" is choosing players..."
         selected_features = []
 
         flen = len(features) # no of features
@@ -129,18 +129,20 @@ class Sim:
         for i in random.sample(range(0, flen),f_count):
             selected_features.append(features[i])
 
+        #selected_features = [self.POS[0], self.CAT[0], self.GENRE[0], self.NEG[0]]
+
         print mname +" says: looking for following features: "+str(selected_features)
 
         pos = bool(random.getrandbits(1))
-        
-        if pos:
-            print mname +" says: looking for "+str(count)+" players similar to me"
-        else:
-            print mname +" says: looking for "+str(count)+" players different than me"
+
+        #if pos:
+        #    print mname +" says: looking for "+str(count)+" players similar to me"
+        #else:
+        #    print mname +" says: looking for "+str(count)+" players different than me"
 
         loop = 0
         player_sim_index =  {}
-        print "PLAYERS", str(players)
+        #print "PLAYERS", str(players)
         for candidate in players:
             similarity = self.sim_cat_values(manager, candidate, selected_features)
             if math.isnan(similarity):
@@ -150,25 +152,23 @@ class Sim:
         sorted_index = sorted(player_sim_index.items(), key=operator.itemgetter(1))
         result = []
 
-        print "COUNT NEG ", str(count*-1)
+        #print "COUNT NEG ", str(count*-1)
         if pos:
-            print "--> POS"
+            #print "--> POS"
             for tuple in sorted_index[count*-1:]:
                 #print "TUPLE", tuple
                 result.append(players[tuple[0]])
         else:
-            print "--> NEG"
+            #print "--> NEG"
             for tuple in sorted_index[:count]:
                 #print "TUPLE", tuple
-                result.append(players[tuple[0]])
+                result.append(players[tuple[0]]["Character"])
 
-        for player in result:
-            print player["Character"]
-
+        return result
 
 if __name__ == "__main__":
     k = KB_parser()
-    n = 2
+    n = 3
     #print "Got "+str(n)+" players: "+str(k.random_players(3))
     #for k.ge
 
@@ -176,7 +176,7 @@ if __name__ == "__main__":
 
     manager = k.random_manager()
 
-    s.choose_players_random(manager, k.all_players(), n)
+    print s.choose_players_random(manager, k.all_players(), n)
     sys.exit(0)
 
     for i in range(1,10):

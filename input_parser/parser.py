@@ -29,10 +29,10 @@ class file_parser:
         return result
 
 if __name__ == "__main__":
-
-    f = file_parser()
-    print f.people
-    print f.movie_characters
+    pass
+    #f = file_parser()
+    #print f.people
+    #print f.movie_characters
 
 
 
