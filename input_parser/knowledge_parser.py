@@ -51,6 +51,9 @@ class KB_parser:
             result.append(self.character_data[i])
         return result
 
+    def all_players(self):
+        return self.character_data
+
 
 if __name__ == "__main__":
 
@@ -63,5 +66,8 @@ if __name__ == "__main__":
     #for k.ge
     for player in k.random_players(3):
         print player["Character"]
+        for feature in player:
+            print "\t"+feature+": "+player[feature]
+
 
 
