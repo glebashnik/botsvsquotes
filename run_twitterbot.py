@@ -18,6 +18,8 @@ def select_players(parser, s, n=3):
 
     #chose other players
     players = s.choose_players_random(manager, parser.all_players(), n)
+    manager = manager["Character"]
+
     return manager, players
 
 """
