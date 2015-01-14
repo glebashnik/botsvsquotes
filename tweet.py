@@ -29,8 +29,31 @@ ccpattern = (
 
 def post_tweet(tweet):
 	from pattern.web import URL, Twitter
+	import json
 
 	url = URL("https://api.twitter.com/1.1/statuses/update.json", method="post", query={"status": tweet})
+
+	twitter = Twitter(license=ccpattern)
+	url = twitter._authenticate(url)
+
+	try:
+	    # Send the post request.
+	    data = url.open().read()
+	except Exception as e:
+	    print e
+	    print e.src
+	    print e.src.read()
+	    return None
+
+	data = json.loads(data)
+	return data[u'id']
+
+def reply_tweet(tweet, reply_id, reply_user="@BotsVsQuotes"):
+	from pattern.web import URL, Twitter
+
+	tweet = reply_user + " " + tweet
+	print tweet
+	url = URL("https://api.twitter.com/1.1/statuses/update.json", method="post", query={"status": tweet, "in_reply_to_status_id": reply_id})
 
 	twitter = Twitter(license=ccpattern)
 	url = twitter._authenticate(url)
@@ -54,13 +77,16 @@ if __name__ == '__main__':
 	from pattern.web import URL, Twitter
 
 	# Tweet to post:
-	tweet = "I am alive... alive! #codecampCC"
+	tweet = "reply"
 
 	# The API for posting is described here:
 	# # https://dev.twitter.com/rest/reference/post/statuses/update
 
 
-	url = URL("https://api.twitter.com/1.1/statuses/update.json", method="post", query={"status": tweet})
+	url = URL("https://api.twitter.com/1.1/statuses/update.json", method="post", query={"status": tweet, "in_reply_to_status_id": 555351565532676096})
+
+	#url = URL("https://api.twitter.com/1.1/statuses/user_timeline.json", method="get", query={"exclude_replies":True, "user_id":"BotsVsQuotes", "count":1})
+	
 
 	# We'll use the Twitter._authenticate() method to authenticate ourselves 
 	# as @ccpattern (so the new tweet will appear on @ccpattern's page):
@@ -71,7 +97,8 @@ if __name__ == '__main__':
 
 	try:
 	    # Send the post request.
-	    url.open()
+	    a = url.open().read()
+	    print len(a)
 	except Exception as e:
 	    print e
 	    print e.src
