@@ -1,0 +1,141 @@
+﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
+<text>
+<sentence id=""9800"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+	<chunk type=""NP"">
+		<word type=""DT"">A</word>
+		<word type=""NN"">man</word>
+	</chunk>
+	<chunk type=""PNP"">
+		<chunk type=""PP"">
+			<word type=""IN"">in</word>
+		</chunk>
+		<chunk type=""NP"">
+			<word type=""NN"">love</word>
+		</chunk>
+	</chunk>
+	<chunk type=""VP"">
+		<word type=""VBZ"">is</word>
+	</chunk>
+	<chunk type=""ADJP"">
+		<word type=""JJ"">incomplete</word>
+	</chunk>
+	<chunk type=""PNP"">
+		<chunk type=""PP"">
+			<word type=""IN"">until</word>
+		</chunk>
+		<chunk type=""NP"">
+			<word type=""PRP"">he</word>
+		</chunk>
+	</chunk>
+	<chunk type=""VP"">
+		<word type=""VBZ"">has</word>
+		<word type=""VBN"">married</word>
+	</chunk>
+	<chink>
+		<word type=""."">.</word>
+	</chink>
+</sentence>
+<sentence id=""9801"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+	<chunk type=""ADVP"">
+		<word type=""RB"">Then</word>
+	</chunk>
+	<chunk type=""NP"">
+		<word type=""PRP"">he</word>
+	</chunk>
+	<chink>
+		<word type=""POS"">'s</word>
+	</chink>
+	<chunk type=""ADJP"">
+		<word type=""JJ"">finished</word>
+	</chunk>
+	<chink>
+		<word type=""."">.</word>
+	</chink>
+</sentence>
+</text>","0","0"
+"<?xml version=""1.0"" encoding=""UTF-8""?>
+<text>
+<sentence id=""9800"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+	<chunk type=""NP"">
+		<word type=""DT"">A</word>
+		<word type=""NN"">man</word>
+	</chunk>
+	<chunk type=""PNP"">
+		<chunk type=""PP"">
+			<word type=""IN"">in</word>
+		</chunk>
+		<chunk type=""NP"">
+			<word type=""NN"">love</word>
+		</chunk>
+	</chunk>
+	<chunk type=""VP"">
+		<word type=""VBZ"">is</word>
+	</chunk>
+	<chunk type=""ADJP"">
+		<word type=""JJ"">incomplete</word>
+	</chunk>
+	<chunk type=""PNP"">
+		<chunk type=""PP"">
+			<word type=""IN"">until</word>
+		</chunk>
+		<chunk type=""NP"">
+			<word type=""PRP"">he</word>
+		</chunk>
+	</chunk>
+	<chunk type=""VP"">
+		<word type=""VBZ"">has</word>
+		<word type=""VBN"">married</word>
+	</chunk>
+	<chink>
+		<word type=""."">.</word>
+	</chink>
+</sentence>
+<sentence id=""9801"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+	<chunk type=""ADVP"">
+		<word type=""RB"">Then</word>
+	</chunk>
+	<chunk type=""NP"">
+		<word type=""PRP"">he</word>
+	</chunk>
+	<chink>
+		<word type=""POS"">'s</word>
+	</chink>
+	<chunk type=""ADJP"">
+		<word type=""JJ"">finished</word>
+	</chunk>
+	<chink>
+		<word type=""."">.</word>
+	</chink>
+</sentence>
+</text>","0","2"
+"<?xml version=""1.0"" encoding=""UTF-8""?>
+<text>
+<sentence id=""9802"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+	<chunk type=""NP"">
+		<word type=""PRP"">I</word>
+	</chunk>
+	<chunk type=""VP"">
+		<word type=""RB"">never</word>
+		<word type=""VBD"">hated</word>
+	</chunk>
+	<chunk type=""NP"">
+		<word type=""DT"">a</word>
+		<word type=""NN"">man</word>
+	</chunk>
+	<chunk type=""VP"">
+		<word type=""RB"">enough</word>
+		<word type=""TO"">to</word>
+		<word type=""VB"">give</word>
+	</chunk>
+	<chunk type=""NP"">
+		<word type=""PRP"">him</word>
+		<word type=""NNS"">diamonds</word>
+	</chunk>
+	<chunk type=""ADVP"">
+		<word type=""RB"">back</word>
+	</chunk>
+	<chink>
+		<word type=""."">.</word>
+	</chink>
+</sentence>
+</text>","0","2"
