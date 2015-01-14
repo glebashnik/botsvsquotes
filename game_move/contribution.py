@@ -1,11 +1,13 @@
 from scorer import gensim_similarity_score_full
-from cards import cards
+from cards import card
 from os import path
 import operator
 import string 
 import timeit
 
 from gensim.models import Word2Vec
+from cards.io import load_cards_dict
+from numpy import character
 
 
 
@@ -107,8 +109,8 @@ if __name__ == '__main__':
     #player_type = "fictional"
     #quoter_type = "real"
     
-    player_name = "Don Corleone"
-    quoter_name = "Stephen Hawking"
+    player_name = "Adam Sandler"
+    quoter_name = "Aristotle"
 
     test_quoter = {
               "name": "vader", 
@@ -116,12 +118,11 @@ if __name__ == '__main__':
               "filler":"the Force"}
     
     # Load data
-    black_card_file = path.join("..\\cards","fictional_black_cards.json")
-    white_card_file = path.join("..\\cards","fictional_white_cards.json")
-    black_card_dict = cards.load_cards_dict(black_card_file)
-    white_card_dict = cards.load_cards_dict(white_card_file)
-    data_set = zip(black_card_dict.items(), white_card_dict.items())
-    
+    card_dict = load_cards_dict()
+    black_cards = {character: [card.black_string() for card in cards] for character, cards in card_dict.iteritems()}
+    white_cards = {character: [card.white_string() for card in cards] for character, cards in card_dict.iteritems()}
+    data_set = zip(black_cards.items(), white_cards.items())    
+
     # Load models
     trained_medium_model_path = path.join("E:\Dropbox\Data\WordVecModels","w2v_103.model")
     trained_medium_model = Word2Vec.load(trained_medium_model_path)
