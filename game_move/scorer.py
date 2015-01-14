@@ -1,7 +1,7 @@
 from pattern.vector import Document
 from pattern.vector import distance
 from pattern.text.en import sentiment, wordnet
-#import pandas as pd
+import pandas
 from os import path
 import string
 
@@ -161,7 +161,7 @@ def pattern_sentiment_score(s):
 def load_anew_sentiment_scores():
     
     # Load anew scores
-    anew = pd.read_csv(
+    anew = pandas.read_csv(
                        path.join("res","anew.csv"), 
                        usecols=[
                                     'Word','V.Mean.Sum','V.SD.Sum','V.Rat.Sum',
@@ -184,7 +184,7 @@ def load_anew_sentiment_scores():
 def anew_sentiment_score(scores, input_list):
     
     ## Initialise a pandas DataFrame, with a single column for "word"
-    input_dataframe = pd.DataFrame.from_records(input_list, columns=["word"])
+    input_dataframe = pandas.DataFrame.from_records(input_list, columns=["word"])
     print input_dataframe
     
     for df in input_dataframe:
