@@ -196,4 +196,4 @@ for name, tweet in (
   (     "PJ Harvey", "PJ Harvey received an honorary doctorate"          ),
   ("George W. Bush", "George W. Bush is a dangerous dumbass"             ),
   (       "Cthulhu", "Cthulhu for president. Why vote for a lesser evil?")):
-    print name, classifier.classify(ngram_vector(tweet, 5)).upper()
+    print name, str(classifier.classify(ngram_vector(tweet, 5)))
