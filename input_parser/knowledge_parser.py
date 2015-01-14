@@ -64,10 +64,11 @@ if __name__ == "__main__":
     print
     print "Got "+str(n)+" players:"
     #for k.ge
+    '''
     for player in k.random_players(3):
         #print player["Character"]
         for feature in player:
             print "\t"+feature+": "+player[feature]
-
+    '''
 
 
