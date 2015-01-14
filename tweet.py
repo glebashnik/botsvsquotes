@@ -46,13 +46,12 @@ def post_tweet(tweet):
 	    return None
 
 	data = json.loads(data)
-	return data[u'id']
+	return int(data[u'id'])
 
 def reply_tweet(tweet, reply_id, reply_user="@BotsVsQuotes"):
 	from pattern.web import URL, Twitter
 
 	tweet = reply_user + " " + tweet
-	print tweet
 	url = URL("https://api.twitter.com/1.1/statuses/update.json", method="post", query={"status": tweet, "in_reply_to_status_id": reply_id})
 
 	twitter = Twitter(license=ccpattern)
@@ -66,30 +65,49 @@ def reply_tweet(tweet, reply_id, reply_user="@BotsVsQuotes"):
 	    print e.src
 	    print e.src.read()
 
+def get_replies(reply_id):
+	import json
+	from pattern.web import URL, Twitter
+
+	reply_id = reply_id - 1
+	url = URL("https://api.twitter.com/1.1/statuses/mentions_timeline.json", method="get", query={"since_id":reply_id})
+
+	twitter = Twitter(license=ccpattern)
+	url = twitter._authenticate(url)
+
+	user_replies = {}
+	bot_replies = {}
+	try:
+	    data = json.loads(url.open().read())
+	    for reply in data:
+	    	name = reply["user"]["name"].encode('utf-8').strip()
+	    	text = reply["text"].replace("@BotsVsQuotes","").strip()
+	    	if name == "BotsVsQuotes":
+	    		#bot quotes
+	    		text = text.split(":") 
+	    		char_name = text[0]
+	    		bot_replies[char_name] = "".join(text[1:]).strip()
+	    	else:
+	    		#user quotes
+	    		user_replies[name] = text 
+	except Exception as e:
+	    print e
+	    print e.src
+	    print e.src.read()
+	    return {}, {}
+	return bot_replies, user_replies
 
 
 
 if __name__ == '__main__':
-	# @ccpattern is followed by Selena Gomez!
-	# We better post some good stuff so she notices us.
-	# Tip: we could create a bot that follows everyone,
-	# hope they follow us back, and then invent tweets that address them.
+	import json
 	from pattern.web import URL, Twitter
 
 	# Tweet to post:
-	tweet = "reply"
+	tweet = "test tweet"
 
-	# The API for posting is described here:
-	# # https://dev.twitter.com/rest/reference/post/statuses/update
+	url = URL("https://api.twitter.com/1.1/statuses/update.json", method="post", query={"status": tweet})
 
-
-	url = URL("https://api.twitter.com/1.1/statuses/update.json", method="post", query={"status": tweet, "in_reply_to_status_id": 555351565532676096})
-
-	#url = URL("https://api.twitter.com/1.1/statuses/user_timeline.json", method="get", query={"exclude_replies":True, "user_id":"BotsVsQuotes", "count":1})
-	
-
-	# We'll use the Twitter._authenticate() method to authenticate ourselves 
-	# as @ccpattern (so the new tweet will appear on @ccpattern's page):
 	twitter = Twitter(license=ccpattern)
 
 	url = twitter._authenticate(url)
@@ -97,22 +115,15 @@ if __name__ == '__main__':
 
 	try:
 	    # Send the post request.
-	    a = url.open().read()
-	    print len(a)
+	    a = json.loads(url.open().read())
+	    reply_id = a["id"]
+	    print reply_id
 	except Exception as e:
 	    print e
 	    print e.src
 	    print e.src.read()
-	    
-	# To create your own Twitter bot:
 
-	# 1) You need a new e-mail address for the bot (e.g., gmail.com).
-	# 2) You need a new Twitter account.
-	# 3) Verify the Twitter account from the e-mail they send you.
-	# 4) Verify the Twitter account with a mobile phone number (this is mandatory): 
-	#   https://support.twitter.com/articles/110250-adding-your-phone-number-to-your-account
-	# 5) While logged in in the new account, create a Twitter App:
-	#   https://apps.twitter.com/app/new
-	# 6) Modify the app's permissions to "read & write".
-	# 7) Regenerate the keys and access tokens.
-	# 8) Paste the keys and access tokens into this script instead of @ccpattern's keys.
+
+
+
+
