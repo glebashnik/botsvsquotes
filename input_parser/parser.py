@@ -2,8 +2,8 @@ __author__ = 'alm'
 
 class file_parser:
 
-    _CHAR_FILE = "../data/characters_famous_lines.txt"
-    _PEOPLE_FILE = "../data/people_famous_lines.txt"
+    _CHAR_FILE = "data/characters_famous_lines.txt"
+    _PEOPLE_FILE = "data/people_famous_lines.txt"
 
     def __init__(self):
         self.movie_characters = {}

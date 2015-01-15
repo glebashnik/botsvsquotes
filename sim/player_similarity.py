@@ -18,8 +18,8 @@ class Sim:
     GENRE = ("Genres", True)
     CAT = ("Category", True)
 
-    W2V_SMALL = "../data/w2v_7.model"
-    W2V_MEDIUM = "../data/w2v_103.model"
+    W2V_SMALL = "data/w2v_7.model"
+    W2V_MEDIUM = "data/w2v_103.model"
     W2V_BIG = ".../data/w2v-googlenews-corpus/GoogleNews-vectors-negative300.bin.gz"
 
     def __init__(self):
@@ -124,14 +124,15 @@ class Sim:
         #print mname +" is choosing players..."
         #selected_features = [self.POS[0], self.CAT[0], self.GENRE[0], self.NEG[0]]
 
-        #flen = len(features) # no of features
-        #f_count = randint(1, flen) # no of features to select
-        #for i in random.sample(range(0, flen),f_count):
-        #    selected_features.append(features[i])
+        selected_features=[]
+        flen = len(features) # no of features
+        f_count = randint(1, flen) # no of features to select
+        for i in random.sample(range(0, flen),f_count):
+            selected_features.append(features[i])
 
-        selected_features = [self.POS[0], self.CAT[0], self.GENRE[0], self.NEG[0]]
+        #selected_features = [self.POS[0], self.CAT[0], self.GENRE[0], self.NEG[0]]
 
-        print mname +" says: looking for following features: "+str(selected_features)
+        #print mname +" says: looking for following features: "+str(selected_features)
 
         pos = bool(random.getrandbits(1))
 
