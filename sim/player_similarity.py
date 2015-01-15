@@ -1,7 +1,10 @@
 __author__ = 'alm'
 
+from gensim.utils import *
+from gensim.models.word2vec import Word2Vec
+
+from compiler.transformer import *
 from input_parser.knowledge_parser import KB_parser
-from gensim.models import *
 from random import randint
 import random
 import numpy as np
@@ -18,13 +21,13 @@ class Sim:
     GENRE = ("Genres", True)
     CAT = ("Category", True)
 
-    W2V_SMALL = "data/w2v_7.model"
-    W2V_MEDIUM = "data/w2v_103.model"
+    W2V_SMALL = "../data/w2v_7.model"
+    W2V_MEDIUM = "../data/w2v_103.model"
     W2V_BIG = "/home/alm/data/w2v-googlenews-corpus/GoogleNews-vectors-negative300.bin.gz"
 
     def __init__(self):
-        #self.w2v = Word2Vec.load(self.W2V_SMALL) # word2vec model
-        self.w2v = Word2Vec.load(self.W2V_MEDIUM)
+        self.w2v = Word2Vec.load(self.W2V_SMALL) # word2vec model
+        #self.w2v = Word2Vec.load(self.W2V_MEDIUM)
         #self.w2v = Word2Vec.load_word2vec_format(self.W2V_BIG, binary=True)
         self.values_used = []
         self.values_used_features = {}

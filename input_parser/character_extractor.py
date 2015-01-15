@@ -15,7 +15,7 @@ def get_random_captain():
     noc_character_data = noc.parse_rows(noc.NOC)
     count = len(noc_character_data)
     captain =  noc_character_data[randint(0,count-1)]
-    return captain["Character"]
+    return captain
 
 def get_players():
     '''
@@ -50,11 +50,12 @@ def get_random_players(players, count):
 if __name__ == "__main__":
 
     captain = get_random_captain()
-    print captain
-    r_players = get_random_players(get_players(),5)
-    print r_players
+    players = get_players()
+    #print captain
+    #r_players = get_random_players(get_players(),5)
+    #print r_players
 
-    #s = Sim()
-    #s.choose_players_random(captain, players, 5)
+    s = Sim()
+    s.choose_players_random(captain, players, 5)
 
 
