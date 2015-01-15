@@ -84,9 +84,9 @@ if __name__ == '__main__':
     kb = KB_parser()
     character_sim = Sim()
     characters = load_character_names()
-    tweet_delay = 1000
+    tweet_delay = 300
     reply_delay = 10
-    winner_announcement = [", nice one!", ", that's absolutely tremendous!", ", not bad!"]
+    winner_announcement = [", nice one!", ", that's absolutely tremendous!", ", not bad!", ", fantastic!", ", that's evil, but I like it!", ", good on you!", ", I don't really see the point, but it's better than everybody else."]
 
     while 1:
         try:
@@ -118,14 +118,14 @@ if __name__ == '__main__':
             print "selecting a winner"
             sleep(20)
             select_winner_from_replies(reply_id, czar, selected_czar_card, selected_players_cards)            
-            print "sleeping ..."
+            
             """
-            winner = select_winner(czar, selected_czar_card, selected_players)
+            winner = select_winner(czar, selected_czar_card, selected_players_cards)
             reply_tweet(czar + ": " + winner + random.choice(winner_announcement), reply_id)
             tweet = czar + ": " + selected_czar_card.black_string().replace("___", "[" + selected_czar_card.white_string() + "]")
             tweet = tweet.split(":")[1]
-            reply_tweet(czar + ": What I meant was: " + tweet, reply_id)
-            
+            reply_tweet(czar + ": The original was: " + tweet, reply_id)
+            print "sleeping ..."
             sleep(tweet_delay)
         except Exception as e:
             print "failing"
