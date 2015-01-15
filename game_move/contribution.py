@@ -2,7 +2,8 @@ from scorer import gensim_similarity_score_full
 from cards import card
 from os import path
 import operator
-import string 
+import string
+import json
 
 from gensim.models import Word2Vec
 from cards.io import load_cards_dict
@@ -86,9 +87,13 @@ class Contribution(object):
                             if fill in f_k2[1].strip(" "):
                                 plyrs_scores_dict[(ctx,fill)] = (c_v1,f_v2)
         
-        min_f = sorted(plyrs_scores_dict.items(), key=operator.itemgetter(1), reverse=True)
-        
-        return min_f[0][0][1]
+        #min_f = sorted(plyrs_scores_dict.items(), key=operator.itemgetter(1), reverse=True)
+        #max_f = sorted(plyrs_scores_dict.items(), key=operator.itemgetter(1))
+
+        min_f=dict(enumerate(sorted(plyrs_scores_dict.keys(), key=lambda d: d[1][1])))
+        max_f=dict(enumerate(sorted(plyrs_scores_dict.keys(), key=lambda d: d[1][0])))
+
+        return min_f#[(k1,k2) for k1,v1 in min_f.items() for k2,v2 in max_f.items() if v1==v2]#min_f,max_f#[0][0][1]
 
     
     def printer(self, quoter_info, contrs_object):
@@ -108,7 +113,7 @@ if __name__ == '__main__':
     #player_type = "fictional"
     #quoter_type = "real"
     
-    player_name = "Adam Sandler"
+    player_name = "Cartman"
     quoter_name = "Aristotle"
 
     test_quoter = {
@@ -118,10 +123,16 @@ if __name__ == '__main__':
     
     # Load data
     card_dict = load_cards_dict()
-    black_cards = {character: [card.black_string() for card in cards] for character, cards in card_dict.iteritems()}
-    white_cards = {character: [card.white_string() for card in cards] for character, cards in card_dict.iteritems()}
-    data_set = zip(black_cards.items(), white_cards.items())    
+    black_cards_dict = {character: [card.black_string() for card in cards] for character, cards in card_dict.iteritems()}
+    white_cards_dict = {character: [card.white_string() for card in cards] for character, cards in card_dict.iteritems()}
+    #black_cards_pth = path.join("E:\\Dropbox\\Data\\ProseccoCodeCamp", "fictional_black_cards.json")
+    #white_cards_pth = path.join("E:\\Dropbox\\Data\\ProseccoCodeCamp", "fictional_white_cards.json")
+    #black_cards_dict = json.load(open(black_cards_pth, "r"))
+    #white_cards_dict = json.load(open(white_cards_pth, "r"))
+    
+    data_set = zip(black_cards_dict.items(), white_cards_dict.items())
 
+    
     # Load models
     trained_medium_model_path = path.join("E:\Dropbox\Data\WordVecModels","w2v_103.model")
     trained_medium_model = Word2Vec.load(trained_medium_model_path)

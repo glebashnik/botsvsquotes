@@ -1,15 +1,10 @@
 from pattern.vector import Document
 from pattern.vector import distance
 from pattern.text.en import sentiment, wordnet
-import pandas
 from os import path
 import string
 
 from gensim.models import Word2Vec
-
-from nltk.stem.snowball import SnowballStemmer
-stemmer_stem = SnowballStemmer("english").stem
-
 
 
 def gensim_similarity_score_full(quoter_utt, player_utt_list, trained_model):
@@ -157,41 +152,6 @@ def pattern_sentiment_score(s):
     
     return sentiment(s)
 
-
-def load_anew_sentiment_scores():
-    
-    # Load anew scores
-    anew = pandas.read_csv(
-                       path.join("res","anew.csv"), 
-                       usecols=[
-                                    'Word','V.Mean.Sum','V.SD.Sum','V.Rat.Sum',
-                                    'A.Mean.Sum','A.SD.Sum','A.Rat.Sum','D.Mean.Sum',
-                                    'D.SD.Sum','D.Rat.Sum']
-                       )
-
-    anew = anew.drop_duplicates()
-
-    anew.columns = [
-                    'Word','VMeanSum','VSDSum',
-                    'VRatSum','AMeanSum',
-                    'ASDSum','ARatSum',
-                    'DMeanSum','DSDSum','DRatSum'
-                    ]
-
-    return anew
-
-
-def anew_sentiment_score(scores, input_list):
-    
-    ## Initialise a pandas DataFrame, with a single column for "word"
-    input_dataframe = pandas.DataFrame.from_records(input_list, columns=["word"])
-    print input_dataframe
-    
-    for df in input_dataframe:
-        
-        # Stem and lowercase words in df
-        df['word'].apply(lambda x: ''.join(u'%s' % stemmer_stem(x).lower()))
-        
 
 
 if __name__ == '__main__':

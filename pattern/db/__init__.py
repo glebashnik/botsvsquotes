@@ -32,7 +32,7 @@ except:
 try: # Python 2.x vs 3.x
     import htmlentitydefs
 except:
-    from html import entities as htmlentitydefs
+    from html import entities as htmlentitydefs # @UnresolvedImport
 
 try: # Python 2.4 vs 2.5+
     from email.Utils import parsedate_tz, mktime_tz
@@ -58,7 +58,7 @@ def _import_db(engine=SQLITE):
     global MySQLdb
     global sqlite
     if engine == MYSQL:
-        import MySQLdb
+        import MySQLdb # @UnresolvedImport
         warnings.simplefilter("ignore", MySQLdb.Warning)
     if engine == SQLITE:
         try:
@@ -66,7 +66,7 @@ def _import_db(engine=SQLITE):
             import sqlite3.dbapi2 as sqlite
         except: 
             # Python 2.4 with pysqlite2
-            import pysqlite2.dbapi2 as sqlite
+            import pysqlite2.dbapi2 as sqlite  # @UnresolvedImport
 
 def pd(*args):
     """ Returns the path to the parent directory of the script that calls pd() + given relative path.
@@ -1853,7 +1853,7 @@ except:
 #--- CSV -------------------------------------------------------------------------------------------
 
 # Raise the default field size limit:
-csvlib.field_size_limit(sys.maxsize)
+csvlib.field_size_limit(99999999)
 
 def csv_header_encode(field, type=STRING):
     # csv_header_encode("age", INTEGER) => "age (INTEGER)".
