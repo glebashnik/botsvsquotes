@@ -1,37 +1,37 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""7095"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""5733"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""MD"">'ll</word>
-		<word type=""RB"">never</word>
-		<word type=""VBP"">have</word>
+		<word type=""MD"" lemma=""will"">'ll</word>
+		<word type=""RB"" lemma=""never"">never</word>
+		<word type=""VBP"" lemma=""have"">have</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""JJ"">enough</word>
-		<word type=""NN"">time</word>
+		<word type=""JJ"" lemma=""enough"">enough</word>
+		<word type=""NN"" lemma=""time"">time</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""TO"">to</word>
-		<word type=""VB"">paint</word>
+		<word type=""TO"" lemma=""to"">to</word>
+		<word type=""VB"" lemma=""paint"">paint</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""PDT"">all</word>
-		<word type=""DT"">the</word>
-		<word type=""NNS"">pictures</word>
-		<word type=""PRP"">I</word>
+		<word type=""PDT"" lemma=""all"">all</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NNS"" lemma=""picture"">pictures</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""MD"">'d</word>
-		<word type=""VB"">like</word>
+		<word type=""MD"" lemma=""will"">'d</word>
+		<word type=""VB"" lemma=""like"">like</word>
 	</chunk>
 	<chink>
-		<word type=""TO"">to</word>
+		<word type=""TO"" lemma=""to"">to</word>
 	</chink>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","2"

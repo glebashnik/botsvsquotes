@@ -14,7 +14,7 @@ def is_filler(chunk):
 def extract_cards(quote):
     cards = []
 
-    text = parsetree(quote)
+    text = parsetree(quote, lemmata=True)
 
     for sentence_index, sentence in enumerate(text.sentences):
         for chunk_index, chunk in enumerate(sentence.chunks):

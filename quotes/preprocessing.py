@@ -10,7 +10,7 @@ for raw_file_name in os.listdir("data/raw"):
 
         for line in lines:
             if line.find("http") == -1 and line.find("*") == -1 and line.find("{{") == -1 \
-                    and 138 >= len(line) > 40 and line.find("<") == -1 and line.find("\\x") == -1:
+                    and 120 >= len(line) > 40 and line.find("<") == -1 and line.find("\\x") == -1:
                 quotes.append(line)
 
     if len(quotes) > 0:

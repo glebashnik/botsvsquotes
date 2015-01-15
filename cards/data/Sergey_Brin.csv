@@ -1,68 +1,68 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""8252"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""6670"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">We</word>
+		<word type=""PRP"" lemma=""we"">We</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBD"">came</word>
+		<word type=""VBD"" lemma=""come"">came</word>
 	</chunk>
 	<chunk type=""ADVP"">
-		<word type=""RB"">up</word>
+		<word type=""RB"" lemma=""up"">up</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">with</word>
+			<word type=""IN"" lemma=""with"">with</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">notion</word>
+			<word type=""DT"" lemma=""the"">the</word>
+			<word type=""NN"" lemma=""notion"">notion</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PP"">
-		<word type=""IN"">that</word>
+		<word type=""IN"" lemma=""that"">that</word>
 	</chunk>
 	<chunk type=""ADVP"">
-		<word type=""RB"">not</word>
+		<word type=""RB"" lemma=""not"">not</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">all</word>
-		<word type=""NN"">web</word>
-		<word type=""NNS"">pages</word>
+		<word type=""DT"" lemma=""all"">all</word>
+		<word type=""NN"" lemma=""web"">web</word>
+		<word type=""NNS"" lemma=""page"">pages</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">are</word>
-		<word type=""VBN"">created</word>
+		<word type=""VBP"" lemma=""be"">are</word>
+		<word type=""VBN"" lemma=""create"">created</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""JJ"">equal</word>
+		<word type=""JJ"" lemma=""equal"">equal</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""8253"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""6671"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""NNS"">People</word>
+		<word type=""NNS"" lemma=""person"">People</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">are</word>
+		<word type=""VBP"" lemma=""be"">are</word>
 	</chunk>
 	<chink>
-		<word type="","">–</word>
+		<word type="","" lemma=""–"">–</word>
 	</chink>
 	<chink>
-		<word type=""CC"">but</word>
+		<word type=""CC"" lemma=""but"">but</word>
 	</chink>
 	<chunk type=""ADVP"">
-		<word type=""RB"">not</word>
+		<word type=""RB"" lemma=""not"">not</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NN"">web</word>
-		<word type=""NNS"">pages</word>
+		<word type=""NN"" lemma=""web"">web</word>
+		<word type=""NNS"" lemma=""page"">pages</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","4"

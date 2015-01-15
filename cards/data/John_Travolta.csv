@@ -1,60 +1,60 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""5175"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""4161"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
+		<word type=""PRP"" lemma=""it"">It</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">'s</word>
+		<word type=""VBZ"" lemma=""be"">'s</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""JJ"">hard</word>
+		<word type=""JJ"" lemma=""hard"">hard</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""TO"">to</word>
-		<word type=""VB"">make</word>
+		<word type=""TO"" lemma=""to"">to</word>
+		<word type=""VB"" lemma=""make"">make</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""JJ"">cultural</word>
-		<word type=""NN"">phenomenon</word>
+		<word type=""DT"" lemma=""a"">a</word>
+		<word type=""JJ"" lemma=""cultural"">cultural</word>
+		<word type=""NN"" lemma=""phenomenon"">phenomenon</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">every</word>
-		<word type=""NN"">time</word>
+		<word type=""DT"" lemma=""every"">every</word>
+		<word type=""NN"" lemma=""time"">time</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","4"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""5175"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""4161"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
+		<word type=""PRP"" lemma=""it"">It</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">'s</word>
+		<word type=""VBZ"" lemma=""be"">'s</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""JJ"">hard</word>
+		<word type=""JJ"" lemma=""hard"">hard</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""TO"">to</word>
-		<word type=""VB"">make</word>
+		<word type=""TO"" lemma=""to"">to</word>
+		<word type=""VB"" lemma=""make"">make</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""JJ"">cultural</word>
-		<word type=""NN"">phenomenon</word>
+		<word type=""DT"" lemma=""a"">a</word>
+		<word type=""JJ"" lemma=""cultural"">cultural</word>
+		<word type=""NN"" lemma=""phenomenon"">phenomenon</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">every</word>
-		<word type=""NN"">time</word>
+		<word type=""DT"" lemma=""every"">every</word>
+		<word type=""NN"" lemma=""time"">time</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","5"

@@ -1,44 +1,44 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""7483"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""6066"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">love</word>
-		<word type=""VBG"">doing</word>
+		<word type=""VBP"" lemma=""love"">love</word>
+		<word type=""VBG"" lemma=""do"">doing</word>
 	</chunk>
 	<chink>
-		<word type=""WP"">what</word>
+		<word type=""WP"" lemma=""what"">what</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">do</word>
+		<word type=""VBP"" lemma=""do"">do</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chink>
-		<word type=""CC"">but</word>
+		<word type=""CC"" lemma=""but"">but</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">do</word>
-		<word type=""RB"">n't</word>
-		<word type=""VB"">like</word>
-		<word type=""VBG"">seeing</word>
+		<word type=""VBP"" lemma=""do"">do</word>
+		<word type=""RB"" lemma=""n't"">n't</word>
+		<word type=""VB"" lemma=""like"">like</word>
+		<word type=""VBG"" lemma=""see"">seeing</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""JJ"">finished</word>
-		<word type=""NN"">product</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""JJ"" lemma=""finished"">finished</word>
+		<word type=""NN"" lemma=""product"">product</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","6"

@@ -51,8 +51,8 @@ class KB_parser:
             result.append(self.character_data[i])
         return result
 
-    def all_players(self):
-        return self.character_data
+    def all_players(self, characters):
+        return self.get_people_from_kb(characters)
 
 
 if __name__ == "__main__":

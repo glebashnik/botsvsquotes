@@ -1,524 +1,60 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""9071"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""7377"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""RB"">just</word>
-		<word type=""VBD"">had</word>
-		<word type=""TO"">to</word>
-		<word type=""VB"">take</word>
+		<word type=""RB"" lemma=""just"">just</word>
+		<word type=""VBD"" lemma=""have"">had</word>
+		<word type=""TO"" lemma=""to"">to</word>
+		<word type=""VB"" lemma=""take"">take</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""JJ"">hypertext</word>
-		<word type=""NN"">idea</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""JJ"" lemma=""hypertext"">hypertext</word>
+		<word type=""NN"" lemma=""idea"">idea</word>
 	</chunk>
 	<chink>
-		<word type=""CC"">and</word>
+		<word type=""CC"" lemma=""and"">and</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""VB"">connect</word>
+		<word type=""VB"" lemma=""connect"">connect</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""PRP"">it</word>
-	</chunk>
-	<chink>
-		<word type=""TO"">to</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NNPS"">TCP</word>
+		<word type=""PRP"" lemma=""it"">it</word>
 	</chunk>
 	<chink>
-		<word type=""CC"">and</word>
+		<word type=""TO"" lemma=""to"">to</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NNP"">DNS</word>
-		<word type=""NNS"">ideas</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NNPS"" lemma=""tcp"">TCP</word>
 	</chunk>
 	<chink>
-		<word type=""CC"">and</word>
+		<word type=""CC"" lemma=""and"">and</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NN"">—</word>
+		<word type=""NNP"" lemma=""dns"">DNS</word>
+		<word type=""NNS"" lemma=""idea"">ideas</word>
+	</chunk>
+	<chink>
+		<word type=""CC"" lemma=""and"">and</word>
+	</chink>
+	<chunk type=""NP"">
+		<word type=""NN"" lemma=""—"">—</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">ta-da!—</word>
+		<word type=""VBZ"" lemma=""ta-da!—"">ta-da!—</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NNP"">World</word>
-		<word type=""NNP"">Wide</word>
-		<word type=""NNP"">Web</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NNP"" lemma=""world"">World</word>
+		<word type=""NNP"" lemma=""wide"">Wide</word>
+		<word type=""NNP"" lemma=""web"">Web</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","2"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""9072"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""DT"">the</word>
-		<word type=""NN"">duty</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NNP"">Webmaster</word>
-		</chunk>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""TO"">to</word>
-		<word type=""VB"">allocate</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NNP"">URIs</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""WDT"">which</word>
-		<word type=""PRP"">you</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""MD"">will</word>
-		<word type=""VB"">be</word>
-	</chunk>
-	<chunk type=""ADJP"">
-		<word type=""JJ"">able</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""TO"">to</word>
-		<word type=""VB"">stand</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">by</word>
-			<word type=""IN"">in</word>
-			<word type=""IN"">2</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NNS"">years</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type="","">,</word>
-	</chink>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">in</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""CD"">20</word>
-			<word type=""NNS"">years</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type="","">,</word>
-	</chink>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">in</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""CD"">200</word>
-			<word type=""NNS"">years</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","2"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""9073"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NNP"">Legend</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""PRP"">it</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""WDT"">that</word>
-		<word type=""DT"">every</word>
-		<word type=""JJ"">new</word>
-		<word type=""NN"">technology</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""ADJP"">
-		<word type=""JJ"">first</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBD"">used</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">for</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">something</word>
-		</chunk>
-		<chunk type=""VP"">
-			<word type=""VBN"">related</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""TO"">to</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""NN"">sex</word>
-		<word type=""CC"">or</word>
-		<word type=""NN"">pornography</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""9074"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chink>
-		<word type=""DT"">That</word>
-	</chink>
-	<chunk type=""VP"">
-		<word type=""VBZ"">seems</word>
-		<word type=""TO"">to</word>
-		<word type=""VB"">be</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">way</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">humankind</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","3"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""9073"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NNP"">Legend</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""PRP"">it</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""WDT"">that</word>
-		<word type=""DT"">every</word>
-		<word type=""JJ"">new</word>
-		<word type=""NN"">technology</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""ADJP"">
-		<word type=""JJ"">first</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBD"">used</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">for</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">something</word>
-		</chunk>
-		<chunk type=""VP"">
-			<word type=""VBN"">related</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""TO"">to</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""NN"">sex</word>
-		<word type=""CC"">or</word>
-		<word type=""NN"">pornography</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""9074"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chink>
-		<word type=""DT"">That</word>
-	</chink>
-	<chunk type=""VP"">
-		<word type=""VBZ"">seems</word>
-		<word type=""TO"">to</word>
-		<word type=""VB"">be</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">way</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">humankind</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","8"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""9073"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NNP"">Legend</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""PRP"">it</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""WDT"">that</word>
-		<word type=""DT"">every</word>
-		<word type=""JJ"">new</word>
-		<word type=""NN"">technology</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""ADJP"">
-		<word type=""JJ"">first</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBD"">used</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">for</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">something</word>
-		</chunk>
-		<chunk type=""VP"">
-			<word type=""VBN"">related</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""TO"">to</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""NN"">sex</word>
-		<word type=""CC"">or</word>
-		<word type=""NN"">pornography</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""9074"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chink>
-		<word type=""DT"">That</word>
-	</chink>
-	<chunk type=""VP"">
-		<word type=""VBZ"">seems</word>
-		<word type=""TO"">to</word>
-		<word type=""VB"">be</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">way</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">humankind</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","10"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""9073"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NNP"">Legend</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""PRP"">it</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""WDT"">that</word>
-		<word type=""DT"">every</word>
-		<word type=""JJ"">new</word>
-		<word type=""NN"">technology</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""ADJP"">
-		<word type=""JJ"">first</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBD"">used</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">for</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">something</word>
-		</chunk>
-		<chunk type=""VP"">
-			<word type=""VBN"">related</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""TO"">to</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""NN"">sex</word>
-		<word type=""CC"">or</word>
-		<word type=""NN"">pornography</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""9074"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chink>
-		<word type=""DT"">That</word>
-	</chink>
-	<chunk type=""VP"">
-		<word type=""VBZ"">seems</word>
-		<word type=""TO"">to</word>
-		<word type=""VB"">be</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">way</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">humankind</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","1","1"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""9073"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NNP"">Legend</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""PRP"">it</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""WDT"">that</word>
-		<word type=""DT"">every</word>
-		<word type=""JJ"">new</word>
-		<word type=""NN"">technology</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""ADJP"">
-		<word type=""JJ"">first</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBD"">used</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">for</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">something</word>
-		</chunk>
-		<chunk type=""VP"">
-			<word type=""VBN"">related</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""TO"">to</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""NN"">sex</word>
-		<word type=""CC"">or</word>
-		<word type=""NN"">pornography</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""9074"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chink>
-		<word type=""DT"">That</word>
-	</chink>
-	<chunk type=""VP"">
-		<word type=""VBZ"">seems</word>
-		<word type=""TO"">to</word>
-		<word type=""VB"">be</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">way</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">humankind</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","1","3"

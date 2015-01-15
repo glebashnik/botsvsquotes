@@ -29,7 +29,7 @@ def file_name_to_character_name(file_name):
     return file_name.replace(".csv", "").replace("'", '"').replace("_", " ")
 
 
-def load_cards_dict(path):
+def load_cards_dict(path="../cards/data"):
     character_dict = {}
 
     for file_name in os.listdir(path):
@@ -53,8 +53,13 @@ def load_character_cards(character_name, path="../cards/data/"):
 
 
 if __name__ == '__main__':
-    character_names = load_character_names()
-    print character_names
+    characters = load_character_names()
+
+#    with open("characters.txt", "w") as w:
+#        for character in characters:
+#            w.write(character + "\n")
+
+    print characters
 
     cards = load_character_cards("Alan Partridge")
 

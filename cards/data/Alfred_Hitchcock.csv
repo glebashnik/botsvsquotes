@@ -1,2134 +1,1477 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""435"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""326"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">am</word>
+		<word type=""VBP"" lemma=""be"">am</word>
 	</chunk>
 	<chink>
-		<word type=""DT"">a</word>
+		<word type=""DT"" lemma=""a"">a</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""VBN"">typed</word>
+		<word type=""VBN"" lemma=""type"">typed</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NN"">director</word>
+		<word type=""NN"" lemma=""director"">director</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""436"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""327"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">If</word>
+			<word type=""IN"" lemma=""if"">If</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">I</word>
+			<word type=""PRP"" lemma=""i"">I</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">made</word>
+		<word type=""VBP"" lemma=""make"">made</word>
 	</chunk>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""POS"">'</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NNP"">Cinderella</word>
+		<word type=""NNP"" lemma=""cinderella"">Cinderella</word>
 	</chunk>
 	<chink>
-		<word type=""POS"">'</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">audience</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""audience"">audience</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""MD"">would</word>
-		<word type=""RB"">immediately</word>
-		<word type=""VB"">be</word>
-		<word type=""VBG"">looking</word>
+		<word type=""MD"" lemma=""would"">would</word>
+		<word type=""RB"" lemma=""immediately"">immediately</word>
+		<word type=""VB"" lemma=""be"">be</word>
+		<word type=""VBG"" lemma=""look"">looking</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">body</word>
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""body"">body</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">in</word>
+			<word type=""IN"" lemma=""in"">in</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">coach</word>
+			<word type=""DT"" lemma=""the"">the</word>
+			<word type=""NN"" lemma=""coach"">coach</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","3"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""435"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""326"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">am</word>
+		<word type=""VBP"" lemma=""be"">am</word>
 	</chunk>
 	<chink>
-		<word type=""DT"">a</word>
+		<word type=""DT"" lemma=""a"">a</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""VBN"">typed</word>
+		<word type=""VBN"" lemma=""type"">typed</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NN"">director</word>
+		<word type=""NN"" lemma=""director"">director</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""436"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""327"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">If</word>
+			<word type=""IN"" lemma=""if"">If</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">I</word>
+			<word type=""PRP"" lemma=""i"">I</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">made</word>
+		<word type=""VBP"" lemma=""make"">made</word>
 	</chunk>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""POS"">'</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NNP"">Cinderella</word>
+		<word type=""NNP"" lemma=""cinderella"">Cinderella</word>
 	</chunk>
 	<chink>
-		<word type=""POS"">'</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">audience</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""audience"">audience</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""MD"">would</word>
-		<word type=""RB"">immediately</word>
-		<word type=""VB"">be</word>
-		<word type=""VBG"">looking</word>
+		<word type=""MD"" lemma=""would"">would</word>
+		<word type=""RB"" lemma=""immediately"">immediately</word>
+		<word type=""VB"" lemma=""be"">be</word>
+		<word type=""VBG"" lemma=""look"">looking</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">body</word>
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""body"">body</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">in</word>
+			<word type=""IN"" lemma=""in"">in</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">coach</word>
+			<word type=""DT"" lemma=""the"">the</word>
+			<word type=""NN"" lemma=""coach"">coach</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","1","4"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""435"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""326"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">am</word>
+		<word type=""VBP"" lemma=""be"">am</word>
 	</chunk>
 	<chink>
-		<word type=""DT"">a</word>
+		<word type=""DT"" lemma=""a"">a</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""VBN"">typed</word>
+		<word type=""VBN"" lemma=""type"">typed</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NN"">director</word>
+		<word type=""NN"" lemma=""director"">director</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""436"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""327"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">If</word>
+			<word type=""IN"" lemma=""if"">If</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">I</word>
+			<word type=""PRP"" lemma=""i"">I</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">made</word>
+		<word type=""VBP"" lemma=""make"">made</word>
 	</chunk>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""POS"">'</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NNP"">Cinderella</word>
+		<word type=""NNP"" lemma=""cinderella"">Cinderella</word>
 	</chunk>
 	<chink>
-		<word type=""POS"">'</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">audience</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""audience"">audience</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""MD"">would</word>
-		<word type=""RB"">immediately</word>
-		<word type=""VB"">be</word>
-		<word type=""VBG"">looking</word>
+		<word type=""MD"" lemma=""would"">would</word>
+		<word type=""RB"" lemma=""immediately"">immediately</word>
+		<word type=""VB"" lemma=""be"">be</word>
+		<word type=""VBG"" lemma=""look"">looking</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">body</word>
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""body"">body</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">in</word>
+			<word type=""IN"" lemma=""in"">in</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">coach</word>
+			<word type=""DT"" lemma=""the"">the</word>
+			<word type=""NN"" lemma=""coach"">coach</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","1","7"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""435"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""326"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">am</word>
+		<word type=""VBP"" lemma=""be"">am</word>
 	</chunk>
 	<chink>
-		<word type=""DT"">a</word>
+		<word type=""DT"" lemma=""a"">a</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""VBN"">typed</word>
+		<word type=""VBN"" lemma=""type"">typed</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NN"">director</word>
+		<word type=""NN"" lemma=""director"">director</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""436"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""327"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">If</word>
+			<word type=""IN"" lemma=""if"">If</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">I</word>
+			<word type=""PRP"" lemma=""i"">I</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">made</word>
+		<word type=""VBP"" lemma=""make"">made</word>
 	</chunk>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""POS"">'</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NNP"">Cinderella</word>
+		<word type=""NNP"" lemma=""cinderella"">Cinderella</word>
 	</chunk>
 	<chink>
-		<word type=""POS"">'</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">audience</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""audience"">audience</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""MD"">would</word>
-		<word type=""RB"">immediately</word>
-		<word type=""VB"">be</word>
-		<word type=""VBG"">looking</word>
+		<word type=""MD"" lemma=""would"">would</word>
+		<word type=""RB"" lemma=""immediately"">immediately</word>
+		<word type=""VB"" lemma=""be"">be</word>
+		<word type=""VBG"" lemma=""look"">looking</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">body</word>
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""body"">body</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">in</word>
+			<word type=""IN"" lemma=""in"">in</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">coach</word>
+			<word type=""DT"" lemma=""the"">the</word>
+			<word type=""NN"" lemma=""coach"">coach</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","1","9"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""437"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""328"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""NN"">Television</word>
+		<word type=""NN"" lemma=""television"">Television</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-		<word type=""VBN"">done</word>
+		<word type=""VBZ"" lemma=""have"">has</word>
+		<word type=""VBN"" lemma=""do"">done</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""JJ"">much</word>
+		<word type=""JJ"" lemma=""much"">much</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">psychiatry</word>
+			<word type=""NN"" lemma=""psychiatry"">psychiatry</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">by</word>
+			<word type=""IN"" lemma=""by"">by</word>
 		</chunk>
 		<chunk type=""VP"">
-			<word type=""VBG"">spreading</word>
+			<word type=""VBG"" lemma=""spread"">spreading</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">information</word>
+			<word type=""NN"" lemma=""information"">information</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">about</word>
+			<word type=""IN"" lemma=""about"">about</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""ADVP"">
-		<word type=""RB"">as</word>
-		<word type=""RB"">well</word>
+		<word type=""RB"" lemma=""as"">as</word>
+		<word type=""RB"" lemma=""well"">well</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">as</word>
+			<word type=""IN"" lemma=""as"">as</word>
 		</chunk>
 		<chunk type=""VP"">
-			<word type=""VBG"">contributing</word>
+			<word type=""VBG"" lemma=""contribute"">contributing</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""TO"">to</word>
+		<word type=""TO"" lemma=""to"">to</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">need</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""need"">need</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","0"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""437"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""328"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""NN"">Television</word>
+		<word type=""NN"" lemma=""television"">Television</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-		<word type=""VBN"">done</word>
+		<word type=""VBZ"" lemma=""have"">has</word>
+		<word type=""VBN"" lemma=""do"">done</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""JJ"">much</word>
+		<word type=""JJ"" lemma=""much"">much</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">psychiatry</word>
+			<word type=""NN"" lemma=""psychiatry"">psychiatry</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">by</word>
+			<word type=""IN"" lemma=""by"">by</word>
 		</chunk>
 		<chunk type=""VP"">
-			<word type=""VBG"">spreading</word>
+			<word type=""VBG"" lemma=""spread"">spreading</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">information</word>
+			<word type=""NN"" lemma=""information"">information</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">about</word>
+			<word type=""IN"" lemma=""about"">about</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""ADVP"">
-		<word type=""RB"">as</word>
-		<word type=""RB"">well</word>
+		<word type=""RB"" lemma=""as"">as</word>
+		<word type=""RB"" lemma=""well"">well</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">as</word>
+			<word type=""IN"" lemma=""as"">as</word>
 		</chunk>
 		<chunk type=""VP"">
-			<word type=""VBG"">contributing</word>
+			<word type=""VBG"" lemma=""contribute"">contributing</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""TO"">to</word>
+		<word type=""TO"" lemma=""to"">to</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">need</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""need"">need</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","4"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""437"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""328"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""NN"">Television</word>
+		<word type=""NN"" lemma=""television"">Television</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-		<word type=""VBN"">done</word>
+		<word type=""VBZ"" lemma=""have"">has</word>
+		<word type=""VBN"" lemma=""do"">done</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""JJ"">much</word>
+		<word type=""JJ"" lemma=""much"">much</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">psychiatry</word>
+			<word type=""NN"" lemma=""psychiatry"">psychiatry</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">by</word>
+			<word type=""IN"" lemma=""by"">by</word>
 		</chunk>
 		<chunk type=""VP"">
-			<word type=""VBG"">spreading</word>
+			<word type=""VBG"" lemma=""spread"">spreading</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">information</word>
+			<word type=""NN"" lemma=""information"">information</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">about</word>
+			<word type=""IN"" lemma=""about"">about</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""ADVP"">
-		<word type=""RB"">as</word>
-		<word type=""RB"">well</word>
+		<word type=""RB"" lemma=""as"">as</word>
+		<word type=""RB"" lemma=""well"">well</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">as</word>
+			<word type=""IN"" lemma=""as"">as</word>
 		</chunk>
 		<chunk type=""VP"">
-			<word type=""VBG"">contributing</word>
+			<word type=""VBG"" lemma=""contribute"">contributing</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""TO"">to</word>
+		<word type=""TO"" lemma=""to"">to</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">need</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""need"">need</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","7"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""437"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""328"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""NN"">Television</word>
+		<word type=""NN"" lemma=""television"">Television</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-		<word type=""VBN"">done</word>
+		<word type=""VBZ"" lemma=""have"">has</word>
+		<word type=""VBN"" lemma=""do"">done</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""JJ"">much</word>
+		<word type=""JJ"" lemma=""much"">much</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">psychiatry</word>
+			<word type=""NN"" lemma=""psychiatry"">psychiatry</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">by</word>
+			<word type=""IN"" lemma=""by"">by</word>
 		</chunk>
 		<chunk type=""VP"">
-			<word type=""VBG"">spreading</word>
+			<word type=""VBG"" lemma=""spread"">spreading</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">information</word>
+			<word type=""NN"" lemma=""information"">information</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">about</word>
+			<word type=""IN"" lemma=""about"">about</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""ADVP"">
-		<word type=""RB"">as</word>
-		<word type=""RB"">well</word>
+		<word type=""RB"" lemma=""as"">as</word>
+		<word type=""RB"" lemma=""well"">well</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">as</word>
+			<word type=""IN"" lemma=""as"">as</word>
 		</chunk>
 		<chunk type=""VP"">
-			<word type=""VBG"">contributing</word>
+			<word type=""VBG"" lemma=""contribute"">contributing</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""TO"">to</word>
+		<word type=""TO"" lemma=""to"">to</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">need</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""need"">need</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","13"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""438"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""329"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">The</word>
-		<word type=""NNP"">Birds</word>
+		<word type=""DT"" lemma=""the"">The</word>
+		<word type=""NNP"" lemma=""birds"">Birds</word>
 	</chunk>
 	<chink>
-		<word type=""POS"">'</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""MD"">could</word>
-		<word type=""VB"">be</word>
+		<word type=""MD"" lemma=""can"">could</word>
+		<word type=""VB"" lemma=""be"">be</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""RBS"">most</word>
-		<word type=""JJ"">terrifying</word>
-		<word type=""NN"">motion</word>
-		<word type=""NN"">picture</word>
-		<word type=""PRP"">I</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""RBS"" lemma=""most"">most</word>
+		<word type=""JJ"" lemma=""terrifying"">terrifying</word>
+		<word type=""NN"" lemma=""motion"">motion</word>
+		<word type=""NN"" lemma=""picture"">picture</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">have</word>
-		<word type=""RB"">ever</word>
-		<word type=""VBN"">made</word>
+		<word type=""VBP"" lemma=""have"">have</word>
+		<word type=""RB"" lemma=""ever"">ever</word>
+		<word type=""VBN"" lemma=""make"">made</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""439"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""330"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""''"">'</word>
-	</chink>
-</sentence>
-</text>","0","2"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""440"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""PRP"">We</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBP"">do</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""RB"">not</word>
-		<word type=""JJ"">recommend</word>
-		<word type=""NN"">suicide</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">as</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">way</word>
-		</chunk>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NN"">life</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 </sentence>
 </text>","0","2"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""440"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""331"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">We</word>
+		<word type=""PRP"" lemma=""we"">We</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">do</word>
+		<word type=""VBP"" lemma=""do"">do</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""RB"">not</word>
-		<word type=""JJ"">recommend</word>
-		<word type=""NN"">suicide</word>
+		<word type=""RB"" lemma=""not"">not</word>
+		<word type=""JJ"" lemma=""recommend"">recommend</word>
+		<word type=""NN"" lemma=""suicide"">suicide</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">as</word>
+			<word type=""IN"" lemma=""as"">as</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">way</word>
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""way"">way</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">of</word>
+			<word type=""IN"" lemma=""of"">of</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">life</word>
+			<word type=""NN"" lemma=""life"">life</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
+	</chink>
+</sentence>
+</text>","0","2"
+"<?xml version=""1.0"" encoding=""UTF-8""?>
+<text>
+<sentence id=""331"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
+	<chunk type=""NP"">
+		<word type=""PRP"" lemma=""we"">We</word>
+	</chunk>
+	<chunk type=""VP"">
+		<word type=""VBP"" lemma=""do"">do</word>
+	</chunk>
+	<chunk type=""NP"">
+		<word type=""RB"" lemma=""not"">not</word>
+		<word type=""JJ"" lemma=""recommend"">recommend</word>
+		<word type=""NN"" lemma=""suicide"">suicide</word>
+	</chunk>
+	<chunk type=""PNP"">
+		<chunk type=""PP"">
+			<word type=""IN"" lemma=""as"">as</word>
+		</chunk>
+		<chunk type=""NP"">
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""way"">way</word>
+		</chunk>
+	</chunk>
+	<chunk type=""PNP"">
+		<chunk type=""PP"">
+			<word type=""IN"" lemma=""of"">of</word>
+		</chunk>
+		<chunk type=""NP"">
+			<word type=""NN"" lemma=""life"">life</word>
+		</chunk>
+	</chunk>
+	<chink>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","4"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""440"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""331"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">We</word>
+		<word type=""PRP"" lemma=""we"">We</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">do</word>
+		<word type=""VBP"" lemma=""do"">do</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""RB"">not</word>
-		<word type=""JJ"">recommend</word>
-		<word type=""NN"">suicide</word>
+		<word type=""RB"" lemma=""not"">not</word>
+		<word type=""JJ"" lemma=""recommend"">recommend</word>
+		<word type=""NN"" lemma=""suicide"">suicide</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">as</word>
+			<word type=""IN"" lemma=""as"">as</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">way</word>
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""way"">way</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">of</word>
+			<word type=""IN"" lemma=""of"">of</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">life</word>
+			<word type=""NN"" lemma=""life"">life</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","6"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""441"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NN"">Television</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">like</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">invention</word>
-		</chunk>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""JJ"">indoor</word>
-			<word type=""NN"">plumbing</word>
-		</chunk>
-	</chunk>
+<sentence id=""332"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""442"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBD"">did</word>
-		<word type=""RB"">n't</word>
-		<word type=""VB"">change</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NN"">people’s</word>
-		<word type=""NNS"">habits</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""443"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""RB"">just</word>
-		<word type=""VBN"">kept</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""PRP"">them</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">inside</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">house</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","0"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""441"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NN"">Television</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">like</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">invention</word>
-		</chunk>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""JJ"">indoor</word>
-			<word type=""NN"">plumbing</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""442"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBD"">did</word>
-		<word type=""RB"">n't</word>
-		<word type=""VB"">change</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NN"">people’s</word>
-		<word type=""NNS"">habits</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""443"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""RB"">just</word>
-		<word type=""VBN"">kept</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""PRP"">them</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">inside</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">house</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","3"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""441"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NN"">Television</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">like</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">invention</word>
-		</chunk>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""JJ"">indoor</word>
-			<word type=""NN"">plumbing</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""442"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBD"">did</word>
-		<word type=""RB"">n't</word>
-		<word type=""VB"">change</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NN"">people’s</word>
-		<word type=""NNS"">habits</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""443"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""RB"">just</word>
-		<word type=""VBN"">kept</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""PRP"">them</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">inside</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">house</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","5"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""441"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NN"">Television</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">like</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">invention</word>
-		</chunk>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">of</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""JJ"">indoor</word>
-			<word type=""NN"">plumbing</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""442"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBD"">did</word>
-		<word type=""RB"">n't</word>
-		<word type=""VB"">change</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NN"">people’s</word>
-		<word type=""NNS"">habits</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-<sentence id=""443"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""PRP"">It</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""RB"">just</word>
-		<word type=""VBN"">kept</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""PRP"">them</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">inside</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">house</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","2","4"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""444"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chink>
-		<word type=""CD"">One</word>
+		<word type=""CD"" lemma=""one"">One</word>
 	</chink>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">of</word>
+			<word type=""IN"" lemma=""of"">of</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">television’s</word>
-			<word type=""JJ"">great</word>
-			<word type=""NNS"">contributions</word>
+			<word type=""NN"" lemma=""television’s"">television’s</word>
+			<word type=""JJ"" lemma=""great"">great</word>
+			<word type=""NNS"" lemma=""contribution"">contributions</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
+		<word type=""VBZ"" lemma=""be"">is</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">that</word>
+			<word type=""IN"" lemma=""that"">that</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBD"">brought</word>
+		<word type=""VBD"" lemma=""bring"">brought</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NN"">murder</word>
+		<word type=""NN"" lemma=""murder"">murder</word>
 	</chunk>
 	<chunk type=""ADVP"">
-		<word type=""RB"">back</word>
+		<word type=""RB"" lemma=""back"">back</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">into</word>
+			<word type=""IN"" lemma=""into"">into</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">home</word>
+			<word type=""DT"" lemma=""the"">the</word>
+			<word type=""NN"" lemma=""home"">home</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chink>
-		<word type=""WRB"">where</word>
+		<word type=""WRB"" lemma=""where"">where</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">it</word>
+		<word type=""PRP"" lemma=""it"">it</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">belongs</word>
+		<word type=""VBZ"" lemma=""belong"">belongs</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","6"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""444"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""332"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chink>
-		<word type=""CD"">One</word>
+		<word type=""CD"" lemma=""one"">One</word>
 	</chink>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">of</word>
+			<word type=""IN"" lemma=""of"">of</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">television’s</word>
-			<word type=""JJ"">great</word>
-			<word type=""NNS"">contributions</word>
+			<word type=""NN"" lemma=""television’s"">television’s</word>
+			<word type=""JJ"" lemma=""great"">great</word>
+			<word type=""NNS"" lemma=""contribution"">contributions</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
+		<word type=""VBZ"" lemma=""be"">is</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">that</word>
+			<word type=""IN"" lemma=""that"">that</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBD"">brought</word>
+		<word type=""VBD"" lemma=""bring"">brought</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NN"">murder</word>
+		<word type=""NN"" lemma=""murder"">murder</word>
 	</chunk>
 	<chunk type=""ADVP"">
-		<word type=""RB"">back</word>
+		<word type=""RB"" lemma=""back"">back</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">into</word>
+			<word type=""IN"" lemma=""into"">into</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">home</word>
+			<word type=""DT"" lemma=""the"">the</word>
+			<word type=""NN"" lemma=""home"">home</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chink>
-		<word type=""WRB"">where</word>
+		<word type=""WRB"" lemma=""where"">where</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">it</word>
+		<word type=""PRP"" lemma=""it"">it</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">belongs</word>
+		<word type=""VBZ"" lemma=""belong"">belongs</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","9"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""445"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""333"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""NNS"">Puns</word>
+		<word type=""NNS"" lemma=""pun"">Puns</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">are</word>
+		<word type=""VBP"" lemma=""be"">are</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""JJS"">highest</word>
-		<word type=""NN"">form</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""JJS"" lemma=""highest"">highest</word>
+		<word type=""NN"" lemma=""form"">form</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">of</word>
+			<word type=""IN"" lemma=""of"">of</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">literature</word>
+			<word type=""NN"" lemma=""literature"">literature</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","2"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""445"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""333"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""NNS"">Puns</word>
+		<word type=""NNS"" lemma=""pun"">Puns</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">are</word>
+		<word type=""VBP"" lemma=""be"">are</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""JJS"">highest</word>
-		<word type=""NN"">form</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""JJS"" lemma=""highest"">highest</word>
+		<word type=""NN"" lemma=""form"">form</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">of</word>
+			<word type=""IN"" lemma=""of"">of</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">literature</word>
+			<word type=""NN"" lemma=""literature"">literature</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","4"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""446"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""334"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""VP"">
-		<word type=""VB"">Give</word>
+		<word type=""VB"" lemma=""give"">Give</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""PRP"">them</word>
-		<word type=""NN"">pleasure</word>
+		<word type=""PRP"" lemma=""them"">them</word>
+		<word type=""NN"" lemma=""pleasure"">pleasure</word>
 	</chunk>
 	<chink>
-		<word type="","">–</word>
+		<word type="","" lemma=""–"">–</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""JJ"">same</word>
-		<word type=""NN"">pleasure</word>
-		<word type=""PRP"">they</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""JJ"" lemma=""same"">same</word>
+		<word type=""NN"" lemma=""pleasure"">pleasure</word>
+		<word type=""PRP"" lemma=""they"">they</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">have</word>
+		<word type=""VBP"" lemma=""have"">have</word>
 	</chunk>
 	<chink>
-		<word type=""WRB"">when</word>
+		<word type=""WRB"" lemma=""when"">when</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">they</word>
-		<word type=""NN"">wake</word>
+		<word type=""PRP"" lemma=""they"">they</word>
+		<word type=""NN"" lemma=""wake"">wake</word>
 	</chunk>
 	<chink>
-		<word type=""RP"">up</word>
+		<word type=""RP"" lemma=""up"">up</word>
 	</chink>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">from</word>
+			<word type=""IN"" lemma=""from"">from</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">nightmare</word>
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""nightmare"">nightmare</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","1"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""446"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""334"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""VP"">
-		<word type=""VB"">Give</word>
+		<word type=""VB"" lemma=""give"">Give</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""PRP"">them</word>
-		<word type=""NN"">pleasure</word>
+		<word type=""PRP"" lemma=""them"">them</word>
+		<word type=""NN"" lemma=""pleasure"">pleasure</word>
 	</chunk>
 	<chink>
-		<word type="","">–</word>
+		<word type="","" lemma=""–"">–</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""JJ"">same</word>
-		<word type=""NN"">pleasure</word>
-		<word type=""PRP"">they</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""JJ"" lemma=""same"">same</word>
+		<word type=""NN"" lemma=""pleasure"">pleasure</word>
+		<word type=""PRP"" lemma=""they"">they</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">have</word>
+		<word type=""VBP"" lemma=""have"">have</word>
 	</chunk>
 	<chink>
-		<word type=""WRB"">when</word>
+		<word type=""WRB"" lemma=""when"">when</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">they</word>
-		<word type=""NN"">wake</word>
+		<word type=""PRP"" lemma=""they"">they</word>
+		<word type=""NN"" lemma=""wake"">wake</word>
 	</chunk>
 	<chink>
-		<word type=""RP"">up</word>
+		<word type=""RP"" lemma=""up"">up</word>
 	</chink>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">from</word>
+			<word type=""IN"" lemma=""from"">from</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">nightmare</word>
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""nightmare"">nightmare</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","2"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""446"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""334"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""VP"">
-		<word type=""VB"">Give</word>
+		<word type=""VB"" lemma=""give"">Give</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""PRP"">them</word>
-		<word type=""NN"">pleasure</word>
+		<word type=""PRP"" lemma=""them"">them</word>
+		<word type=""NN"" lemma=""pleasure"">pleasure</word>
 	</chunk>
 	<chink>
-		<word type="","">–</word>
+		<word type="","" lemma=""–"">–</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""JJ"">same</word>
-		<word type=""NN"">pleasure</word>
-		<word type=""PRP"">they</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""JJ"" lemma=""same"">same</word>
+		<word type=""NN"" lemma=""pleasure"">pleasure</word>
+		<word type=""PRP"" lemma=""they"">they</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">have</word>
+		<word type=""VBP"" lemma=""have"">have</word>
 	</chunk>
 	<chink>
-		<word type=""WRB"">when</word>
+		<word type=""WRB"" lemma=""when"">when</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">they</word>
-		<word type=""NN"">wake</word>
+		<word type=""PRP"" lemma=""they"">they</word>
+		<word type=""NN"" lemma=""wake"">wake</word>
 	</chunk>
 	<chink>
-		<word type=""RP"">up</word>
+		<word type=""RP"" lemma=""up"">up</word>
 	</chink>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">from</word>
+			<word type=""IN"" lemma=""from"">from</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">nightmare</word>
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""nightmare"">nightmare</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","4"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""446"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""334"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""VP"">
-		<word type=""VB"">Give</word>
+		<word type=""VB"" lemma=""give"">Give</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""PRP"">them</word>
-		<word type=""NN"">pleasure</word>
+		<word type=""PRP"" lemma=""them"">them</word>
+		<word type=""NN"" lemma=""pleasure"">pleasure</word>
 	</chunk>
 	<chink>
-		<word type="","">–</word>
+		<word type="","" lemma=""–"">–</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""JJ"">same</word>
-		<word type=""NN"">pleasure</word>
-		<word type=""PRP"">they</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""JJ"" lemma=""same"">same</word>
+		<word type=""NN"" lemma=""pleasure"">pleasure</word>
+		<word type=""PRP"" lemma=""they"">they</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">have</word>
+		<word type=""VBP"" lemma=""have"">have</word>
 	</chunk>
 	<chink>
-		<word type=""WRB"">when</word>
+		<word type=""WRB"" lemma=""when"">when</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">they</word>
-		<word type=""NN"">wake</word>
+		<word type=""PRP"" lemma=""they"">they</word>
+		<word type=""NN"" lemma=""wake"">wake</word>
 	</chunk>
 	<chink>
-		<word type=""RP"">up</word>
+		<word type=""RP"" lemma=""up"">up</word>
 	</chink>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">from</word>
+			<word type=""IN"" lemma=""from"">from</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">a</word>
-			<word type=""NN"">nightmare</word>
+			<word type=""DT"" lemma=""a"">a</word>
+			<word type=""NN"" lemma=""nightmare"">nightmare</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","6"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""447"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""335"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""VP"">
-		<word type=""MD"">Blondes</word>
-		<word type=""VB"">make</word>
+		<word type=""MD"" lemma=""blonde"">Blondes</word>
+		<word type=""VB"" lemma=""make"">make</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""JJS"">best</word>
-		<word type=""NNS"">victims</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""JJS"" lemma=""best"">best</word>
+		<word type=""NNS"" lemma=""victim"">victims</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""448"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""336"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">They</word>
+		<word type=""PRP"" lemma=""they"">They</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">'re</word>
+		<word type=""VBP"" lemma=""be"">'re</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">like</word>
+			<word type=""IN"" lemma=""like"">like</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""JJ"">virgin</word>
-			<word type=""NN"">snow</word>
+			<word type=""JJ"" lemma=""virgin"">virgin</word>
+			<word type=""NN"" lemma=""snow"">snow</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""WDT"">that</word>
+		<word type=""WDT"" lemma=""that"">that</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""VBZ"">shows</word>
+		<word type=""VBZ"" lemma=""show"">shows</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">up</word>
+			<word type=""IN"" lemma=""up"">up</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""JJ"">bloody</word>
-			<word type=""NNS"">footprints</word>
+			<word type=""DT"" lemma=""the"">the</word>
+			<word type=""JJ"" lemma=""bloody"">bloody</word>
+			<word type=""NNS"" lemma=""footprint"">footprints</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","1","3"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""449"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""337"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""DT"">This</word>
-		<word type=""NN"">award</word>
+		<word type=""DT"" lemma=""this"">This</word>
+		<word type=""NN"" lemma=""award"">award</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
+		<word type=""VBZ"" lemma=""be"">is</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""JJ"">meaningful</word>
+		<word type=""JJ"" lemma=""meaningful"">meaningful</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">because</word>
+			<word type=""IN"" lemma=""because"">because</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">comes</word>
+		<word type=""VBZ"" lemma=""come"">comes</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">from</word>
+			<word type=""IN"" lemma=""from"">from</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP$"">my</word>
-			<word type=""JJ"">fellow</word>
-			<word type=""NNS"">dealers</word>
+			<word type=""PRP$"" lemma=""my"">my</word>
+			<word type=""JJ"" lemma=""fellow"">fellow</word>
+			<word type=""NNS"" lemma=""dealer"">dealers</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">in</word>
+			<word type=""IN"" lemma=""in"">in</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">celluloid</word>
+			<word type=""NN"" lemma=""celluloid"">celluloid</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","0"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""449"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""337"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""DT"">This</word>
-		<word type=""NN"">award</word>
+		<word type=""DT"" lemma=""this"">This</word>
+		<word type=""NN"" lemma=""award"">award</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
+		<word type=""VBZ"" lemma=""be"">is</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""JJ"">meaningful</word>
+		<word type=""JJ"" lemma=""meaningful"">meaningful</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">because</word>
+			<word type=""IN"" lemma=""because"">because</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">it</word>
+			<word type=""PRP"" lemma=""it"">it</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">comes</word>
+		<word type=""VBZ"" lemma=""come"">comes</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">from</word>
+			<word type=""IN"" lemma=""from"">from</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP$"">my</word>
-			<word type=""JJ"">fellow</word>
-			<word type=""NNS"">dealers</word>
+			<word type=""PRP$"" lemma=""my"">my</word>
+			<word type=""JJ"" lemma=""fellow"">fellow</word>
+			<word type=""NNS"" lemma=""dealer"">dealers</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">in</word>
+			<word type=""IN"" lemma=""in"">in</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">celluloid</word>
+			<word type=""NN"" lemma=""celluloid"">celluloid</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","9"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""450"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""338"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">I’m</word>
+		<word type=""PRP"" lemma=""i’m"">I’m</word>
 	</chunk>
 	<chunk type=""ADVP"">
-		<word type=""RB"">not</word>
+		<word type=""RB"" lemma=""not"">not</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">against</word>
+			<word type=""IN"" lemma=""against"">against</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">police</word>
+			<word type=""DT"" lemma=""the"">the</word>
+			<word type=""NN"" lemma=""police"">police</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type="":"">;</word>
+		<word type="":"" lemma="";"">;</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">'m</word>
+		<word type=""VBP"" lemma=""be"">'m</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""RB"">just</word>
-		<word type=""JJ"">afraid</word>
+		<word type=""RB"" lemma=""just"">just</word>
+		<word type=""JJ"" lemma=""afraid"">afraid</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">of</word>
+			<word type=""IN"" lemma=""of"">of</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">them</word>
+			<word type=""PRP"" lemma=""them"">them</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","3"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""451"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">In</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">documentary</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""JJ"">basic</word>
-			<word type=""NN"">material</word>
-		</chunk>
+<sentence id=""339"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
+	<chunk type=""NP"">
+		<word type=""NNP"" lemma=""hitch"">Hitch</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-		<word type=""VBN"">been</word>
-		<word type=""VBN"">created</word>
+		<word type=""VBZ"" lemma=""be"">is</word>
 	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">by</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NNP"">God</word>
-		</chunk>
+	<chunk type=""NP"">
+		<word type=""DT"" lemma=""a"">a</word>
+		<word type=""NN"" lemma=""gentleman"">gentleman</word>
+		<word type=""NN"" lemma=""farmer"">farmer</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type=""WP"" lemma=""who"">who</word>
 	</chink>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">whereas</word>
-			<word type=""IN"">in</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">fiction</word>
-			<word type=""NN"">film</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">director</word>
-		</chunk>
-	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
+		<word type=""VBZ"" lemma=""raise"">raises</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""NNP"">God</word>
+		<word type=""NN"" lemma=""goose"">goose</word>
+		<word type=""NN"" lemma=""flesh"">flesh</word>
 	</chunk>
 	<chink>
-		<word type="":"">;</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""PRP"">he</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""MD"">must</word>
-		<word type=""VB"">create</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NN"">life</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","1"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""451"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">In</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">documentary</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""JJ"">basic</word>
-			<word type=""NN"">material</word>
-		</chunk>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-		<word type=""VBN"">been</word>
-		<word type=""VBN"">created</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">by</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NNP"">God</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type="","">,</word>
-	</chink>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">whereas</word>
-			<word type=""IN"">in</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">fiction</word>
-			<word type=""NN"">film</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">director</word>
-		</chunk>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""NNP"">God</word>
-	</chunk>
-	<chink>
-		<word type="":"">;</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""PRP"">he</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""MD"">must</word>
-		<word type=""VB"">create</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NN"">life</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","2"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""451"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">In</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">documentary</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""JJ"">basic</word>
-			<word type=""NN"">material</word>
-		</chunk>
+<sentence id=""339"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
+	<chunk type=""NP"">
+		<word type=""NNP"" lemma=""hitch"">Hitch</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-		<word type=""VBN"">been</word>
-		<word type=""VBN"">created</word>
+		<word type=""VBZ"" lemma=""be"">is</word>
 	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">by</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NNP"">God</word>
-		</chunk>
+	<chunk type=""NP"">
+		<word type=""DT"" lemma=""a"">a</word>
+		<word type=""NN"" lemma=""gentleman"">gentleman</word>
+		<word type=""NN"" lemma=""farmer"">farmer</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
-	</chink>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">whereas</word>
-			<word type=""IN"">in</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">fiction</word>
-			<word type=""NN"">film</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">director</word>
-		</chunk>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""NNP"">God</word>
-	</chunk>
-	<chink>
-		<word type="":"">;</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""PRP"">he</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""MD"">must</word>
-		<word type=""VB"">create</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NN"">life</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","7"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""451"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">In</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">documentary</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""JJ"">basic</word>
-			<word type=""NN"">material</word>
-		</chunk>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-		<word type=""VBN"">been</word>
-		<word type=""VBN"">created</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">by</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NNP"">God</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type="","">,</word>
-	</chink>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">whereas</word>
-			<word type=""IN"">in</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">fiction</word>
-			<word type=""NN"">film</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">director</word>
-		</chunk>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""NNP"">God</word>
-	</chunk>
-	<chink>
-		<word type="":"">;</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""PRP"">he</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""MD"">must</word>
-		<word type=""VB"">create</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NN"">life</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","8"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""451"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">In</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">documentary</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""JJ"">basic</word>
-			<word type=""NN"">material</word>
-		</chunk>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">has</word>
-		<word type=""VBN"">been</word>
-		<word type=""VBN"">created</word>
-	</chunk>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">by</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""NNP"">God</word>
-		</chunk>
-	</chunk>
-	<chink>
-		<word type="","">,</word>
-	</chink>
-	<chunk type=""PNP"">
-		<chunk type=""PP"">
-			<word type=""IN"">whereas</word>
-			<word type=""IN"">in</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">fiction</word>
-			<word type=""NN"">film</word>
-		</chunk>
-		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NN"">director</word>
-		</chunk>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""NNP"">God</word>
-	</chunk>
-	<chink>
-		<word type="":"">;</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""PRP"">he</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""MD"">must</word>
-		<word type=""VB"">create</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NN"">life</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","13"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""452"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NNP"">Hitch</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""NN"">gentleman</word>
-		<word type=""NN"">farmer</word>
-	</chunk>
-	<chink>
-		<word type=""WP"">who</word>
+		<word type=""WP"" lemma=""who"">who</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""VBZ"">raises</word>
+		<word type=""VBZ"" lemma=""raise"">raises</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NN"">goose</word>
-		<word type=""NN"">flesh</word>
+		<word type=""NN"" lemma=""goose"">goose</word>
+		<word type=""NN"" lemma=""flesh"">flesh</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
-	</chink>
-</sentence>
-</text>","0","2"
-"<?xml version=""1.0"" encoding=""UTF-8""?>
-<text>
-<sentence id=""452"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
-	<chunk type=""NP"">
-		<word type=""NNP"">Hitch</word>
-	</chunk>
-	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""NN"">gentleman</word>
-		<word type=""NN"">farmer</word>
-	</chunk>
-	<chink>
-		<word type=""WP"">who</word>
-	</chink>
-	<chunk type=""VP"">
-		<word type=""VBZ"">raises</word>
-	</chunk>
-	<chunk type=""NP"">
-		<word type=""NN"">goose</word>
-		<word type=""NN"">flesh</word>
-	</chunk>
-	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","4"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""453"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""340"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""MD"">'d</word>
-		<word type=""VB"">like</word>
-		<word type=""TO"">to</word>
-		<word type=""VB"">know</word>
+		<word type=""MD"" lemma=""will"">'d</word>
+		<word type=""VB"" lemma=""like"">like</word>
+		<word type=""TO"" lemma=""to"">to</word>
+		<word type=""VB"" lemma=""know"">know</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""JJR"">more</word>
+		<word type=""JJR"" lemma=""more"">more</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">about</word>
+			<word type=""IN"" lemma=""about"">about</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP$"">his</word>
-			<word type=""NNS"">relationships</word>
+			<word type=""PRP$"" lemma=""his"">his</word>
+			<word type=""NNS"" lemma=""relationship"">relationships</word>
 		</chunk>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">with</word>
+			<word type=""IN"" lemma=""with"">with</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NNS"">women</word>
+			<word type=""NNS"" lemma=""woman"">women</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""454"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""341"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""NNP"">No</word>
+		<word type=""NNP"" lemma=""no"">No</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">on</word>
+			<word type=""IN"" lemma=""on"">on</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""JJ"">second</word>
-			<word type=""NN"">thought</word>
+			<word type=""JJ"" lemma=""second"">second</word>
+			<word type=""NN"" lemma=""thought"">thought</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""MD"">would</word>
+		<word type=""MD"" lemma=""would"">would</word>
 	</chunk>
 	<chunk type=""ADVP"">
-		<word type=""RB"">n't</word>
+		<word type=""RB"" lemma=""n't"">n't</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","1","2"

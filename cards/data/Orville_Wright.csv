@@ -1,44 +1,44 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""7142"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""5770"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">We</word>
+		<word type=""PRP"" lemma=""we"">We</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBD"">came</word>
+		<word type=""VBD"" lemma=""come"">came</word>
 	</chunk>
 	<chunk type=""ADVP"">
-		<word type=""RB"">down</word>
-		<word type=""RB"">here</word>
+		<word type=""RB"" lemma=""down"">down</word>
+		<word type=""RB"" lemma=""here"">here</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">for</word>
+			<word type=""IN"" lemma=""for"">for</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">wind</word>
-			<word type=""CC"">and</word>
-			<word type=""NN"">sand</word>
+			<word type=""NN"" lemma=""wind"">wind</word>
+			<word type=""CC"" lemma=""and"">and</word>
+			<word type=""NN"" lemma=""sand"">sand</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chink>
-		<word type=""CC"">and</word>
+		<word type=""CC"" lemma=""and"">and</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">we</word>
+		<word type=""PRP"" lemma=""we"">we</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">have</word>
-		<word type=""VBN"">got</word>
+		<word type=""VBP"" lemma=""have"">have</word>
+		<word type=""VBN"" lemma=""get"">got</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""PRP"">them</word>
+		<word type=""PRP"" lemma=""them"">them</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","4"

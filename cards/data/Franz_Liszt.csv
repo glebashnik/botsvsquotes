@@ -1,52 +1,52 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""3232"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""2602"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""ADJP"">
-		<word type=""JJ"">Sorrowful</word>
-		<word type=""CC"">and</word>
-		<word type=""JJ"">great</word>
+		<word type=""JJ"" lemma=""sorrowful"">Sorrowful</word>
+		<word type=""CC"" lemma=""and"">and</word>
+		<word type=""JJ"" lemma=""great"">great</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
+		<word type=""VBZ"" lemma=""be"">is</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">artist</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""artist"">artist</word>
 	</chunk>
 	<chink>
-		<word type=""POS"">'s</word>
+		<word type=""POS"" lemma=""'s"">'s</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NN"">destiny</word>
+		<word type=""NN"" lemma=""destiny"">destiny</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","2"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""3232"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""2602"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""ADJP"">
-		<word type=""JJ"">Sorrowful</word>
-		<word type=""CC"">and</word>
-		<word type=""JJ"">great</word>
+		<word type=""JJ"" lemma=""sorrowful"">Sorrowful</word>
+		<word type=""CC"" lemma=""and"">and</word>
+		<word type=""JJ"" lemma=""great"">great</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
+		<word type=""VBZ"" lemma=""be"">is</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">artist</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""artist"">artist</word>
 	</chunk>
 	<chink>
-		<word type=""POS"">'s</word>
+		<word type=""POS"" lemma=""'s"">'s</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NN"">destiny</word>
+		<word type=""NN"" lemma=""destiny"">destiny</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","3"

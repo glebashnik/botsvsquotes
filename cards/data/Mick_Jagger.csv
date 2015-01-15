@@ -1,79 +1,79 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""6795"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""5485"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">If</word>
+			<word type=""IN"" lemma=""if"">If</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">you</word>
+			<word type=""PRP"" lemma=""you"">you</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">think</word>
+		<word type=""VBP"" lemma=""think"">think</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">that</word>
-		<word type=""NNP"">Mick</word>
-		<word type=""NNP"">Jagger</word>
+		<word type=""DT"" lemma=""that"">that</word>
+		<word type=""NNP"" lemma=""mick"">Mick</word>
+		<word type=""NNP"" lemma=""jagger"">Jagger</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""MD"">will</word>
-		<word type=""RB"">still</word>
-		<word type=""VB"">be</word>
-		<word type=""VBG"">doing</word>
+		<word type=""MD"" lemma=""will"">will</word>
+		<word type=""RB"" lemma=""still"">still</word>
+		<word type=""VB"" lemma=""be"">be</word>
+		<word type=""VBG"" lemma=""do"">doing</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""JJ"">whole</word>
-		<word type=""NN"">rock</word>
-		<word type=""NN"">star</word>
-		<word type=""NN"">thing</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""JJ"" lemma=""whole"">whole</word>
+		<word type=""NN"" lemma=""rock"">rock</word>
+		<word type=""NN"" lemma=""star"">star</word>
+		<word type=""NN"" lemma=""thing"">thing</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">at</word>
+			<word type=""IN"" lemma=""at"">at</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">age</word>
+			<word type=""NN"" lemma=""age"">age</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""CD"">fifty</word>
+		<word type=""CD"" lemma=""fifty"">fifty</word>
 	</chink>
 	<chink>
-		<word type="","">,</word>
-	</chink>
-	<chunk type=""ADVP"">
-		<word type=""RB"">well</word>
-	</chunk>
-	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""ADVP"">
-		<word type=""RB"">then</word>
+		<word type=""RB"" lemma=""well"">well</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
+	</chink>
+	<chunk type=""ADVP"">
+		<word type=""RB"" lemma=""then"">then</word>
+	</chunk>
+	<chink>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""PRP"">you</word>
+		<word type=""PRP"" lemma=""you"">you</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">are</word>
+		<word type=""VBP"" lemma=""be"">are</word>
 	</chunk>
 	<chunk type=""ADVP"">
-		<word type=""RB"">sorely</word>
+		<word type=""RB"" lemma=""sorely"">sorely</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""RB"">sorely</word>
-		<word type=""VBN"">mistaken</word>
+		<word type=""RB"" lemma=""sorely"">sorely</word>
+		<word type=""VBN"" lemma=""mistake"">mistaken</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","5"

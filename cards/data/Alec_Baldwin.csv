@@ -1,68 +1,68 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""421"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""317"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""NNPS"">Democrats</word>
+		<word type=""NNPS"" lemma=""democrats"">Democrats</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">of</word>
+			<word type=""IN"" lemma=""of"">of</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""DT"">the</word>
-			<word type=""NNS"">seventies</word>
+			<word type=""DT"" lemma=""the"">the</word>
+			<word type=""NNS"" lemma=""seventy"">seventies</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""CC"">and</word>
+		<word type=""CC"" lemma=""and"">and</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NNS"">eighties</word>
+		<word type=""NNS"" lemma=""eighty"">eighties</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">are</word>
+		<word type=""VBP"" lemma=""be"">are</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""RB"">too</word>
-		<word type=""JJ"">tolerant</word>
-	</chunk>
-	<chink>
-		<word type="","">,</word>
-	</chink>
-	<chunk type=""ADJP"">
-		<word type=""RB"">too</word>
-		<word type=""JJ"">open-minded</word>
+		<word type=""RB"" lemma=""too"">too</word>
+		<word type=""JJ"" lemma=""tolerant"">tolerant</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""ADJP"">
-		<word type=""RB"">not</word>
-		<word type=""JJ"">feral</word>
+		<word type=""RB"" lemma=""too"">too</word>
+		<word type=""JJ"" lemma=""open-minded"">open-minded</word>
+	</chunk>
+	<chink>
+		<word type="","" lemma="","">,</word>
+	</chink>
+	<chunk type=""ADJP"">
+		<word type=""RB"" lemma=""not"">not</word>
+		<word type=""JJ"" lemma=""feral"">feral</word>
 	</chunk>
 	<chunk type=""ADVP"">
-		<word type=""RB"">enough</word>
+		<word type=""RB"" lemma=""enough"">enough</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""422"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""318"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""PRP"">I</word>
+		<word type=""PRP"" lemma=""i"">I</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">want</word>
-		<word type=""TO"">to</word>
-		<word type=""VB"">be</word>
+		<word type=""VBP"" lemma=""want"">want</word>
+		<word type=""TO"" lemma=""to"">to</word>
+		<word type=""VB"" lemma=""be"">be</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""JJ"">ferocious</word>
-		<word type=""NN"">liberal</word>
+		<word type=""DT"" lemma=""a"">a</word>
+		<word type=""JJ"" lemma=""ferocious"">ferocious</word>
+		<word type=""NN"" lemma=""liberal"">liberal</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","1","2"
