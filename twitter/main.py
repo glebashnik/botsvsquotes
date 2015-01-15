@@ -20,19 +20,19 @@ def select_czar(characters):
 kb = KB_parser()
 character_sim = Sim()
 
-
+# Knowledge
 def select_players(czar, candidates):
     czar_profile = kb.get_people_from_kb([czar])[0]
-    player_profiles = kb.get_people_from_kb(candidates)
-    selected_player_profiles = character_sim.choose_players_random(czar_profile, player_profiles, 5)
-    return [p["Character"] for p in selected_player_profiles]
+    players_profiles = kb.get_people_from_kb(candidates)
+    selected_players_profiles = character_sim.choose_players_random(czar_profile, players_profiles, 5)
+    return [p["Character"] for p in selected_players_profiles]
     #return random.sample(candidates, 5)
 
 
 def select_czar_card(czar_cards):
     return random.choice(czar_cards)
 
-
+# Similarity based on wordnet here
 def select_player_card(czar_card, player_cards):
     return max(player_cards, key=lambda c: match_cards(czar_card, c))
     #return random.choice(players_cards)
@@ -44,10 +44,11 @@ def select_winner(czar, czar_card, selected_players_cards):
 
 
 if __name__ == '__main__':
+    characters = load_character_names()
+
     while 1:
         try:
             print "playing"
-            characters = load_character_names()
             czar = select_czar(characters)
             players = [character for character in characters if czar != character]
             selected_players = select_players(czar, players)
