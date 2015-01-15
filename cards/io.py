@@ -29,7 +29,7 @@ def file_name_to_character_name(file_name):
     return file_name.replace(".csv", "").replace("'", '"').replace("_", " ")
 
 
-def load_cards_dict(path="../cards/data"):
+def load_cards_dict(path="cards/data"):
     character_dict = {}
 
     for file_name in os.listdir(path):
@@ -44,11 +44,11 @@ def load_cards_dict(path="../cards/data"):
     return character_dict
 
 
-def load_character_names(path="../cards/data"):
+def load_character_names(path="cards/data"):
     return [file_name_to_character_name(file_name) for file_name in os.listdir(path)]
 
 
-def load_character_cards(character_name, path="../cards/data/"):
+def load_character_cards(character_name, path="cards/data/"):
     return load_cards(path + character_name.replace(" ", "_").replace('"', "'") + ".csv")
 
 
