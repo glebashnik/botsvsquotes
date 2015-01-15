@@ -1,94 +1,94 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""560"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""425"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""POS"">'</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""NNP"">Se</word>
-	</chunk>
-	<chink>
-		<word type=""FW"">questa</word>
-	</chink>
-	<chink>
-		<word type=""FW"">non</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NN"">piace</word>
+		<word type=""NNP"" lemma=""se"">Se</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type=""FW"" lemma=""questa"">questa</word>
 	</chink>
 	<chink>
-		<word type=""FW"">non</word>
+		<word type=""FW"" lemma=""non"">non</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NN"">voglio</word>
-		<word type=""NN"">più</word>
-		<word type=""RB"">scrivere</word>
-		<word type=""JJ"">di</word>
-		<word type=""NN"">musica</word>
+		<word type=""NN"" lemma=""piace"">piace</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type="","" lemma="","">,</word>
+	</chink>
+	<chink>
+		<word type=""FW"" lemma=""non"">non</word>
+	</chink>
+	<chunk type=""NP"">
+		<word type=""NN"" lemma=""voglio"">voglio</word>
+		<word type=""NN"" lemma=""più"">più</word>
+		<word type=""RB"" lemma=""scrivere"">scrivere</word>
+		<word type=""JJ"" lemma=""di"">di</word>
+		<word type=""NN"" lemma=""musica"">musica</word>
+	</chunk>
+	<chink>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""561"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""426"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 </sentence>
 </text>","0","1"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""560"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""425"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""POS"">'</word>
-	</chink>
-	<chunk type=""NP"">
-		<word type=""NNP"">Se</word>
-	</chunk>
-	<chink>
-		<word type=""FW"">questa</word>
-	</chink>
-	<chink>
-		<word type=""FW"">non</word>
+		<word type=""POS"" lemma=""'"">'</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NN"">piace</word>
+		<word type=""NNP"" lemma=""se"">Se</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type=""FW"" lemma=""questa"">questa</word>
 	</chink>
 	<chink>
-		<word type=""FW"">non</word>
+		<word type=""FW"" lemma=""non"">non</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NN"">voglio</word>
-		<word type=""NN"">più</word>
-		<word type=""RB"">scrivere</word>
-		<word type=""JJ"">di</word>
-		<word type=""NN"">musica</word>
+		<word type=""NN"" lemma=""piace"">piace</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type="","" lemma="","">,</word>
+	</chink>
+	<chink>
+		<word type=""FW"" lemma=""non"">non</word>
+	</chink>
+	<chunk type=""NP"">
+		<word type=""NN"" lemma=""voglio"">voglio</word>
+		<word type=""NN"" lemma=""più"">più</word>
+		<word type=""RB"" lemma=""scrivere"">scrivere</word>
+		<word type=""JJ"" lemma=""di"">di</word>
+		<word type=""NN"" lemma=""musica"">musica</word>
+	</chunk>
+	<chink>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""561"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""426"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 	<chink>
-		<word type=""''"">'</word>
+		<word type=""''"" lemma=""'"">'</word>
 	</chink>
 </sentence>
 </text>","0","2"

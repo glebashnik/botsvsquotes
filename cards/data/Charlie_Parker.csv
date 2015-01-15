@@ -1,34 +1,34 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""1864"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""1484"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""VP"">
-		<word type=""VBP"">Do</word>
-		<word type=""RB"">n't</word>
-		<word type=""VB"">play</word>
+		<word type=""VBP"" lemma=""do"">Do</word>
+		<word type=""RB"" lemma=""n't"">n't</word>
+		<word type=""VB"" lemma=""play"">play</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">the</word>
-		<word type=""NN"">saxophone</word>
+		<word type=""DT"" lemma=""the"">the</word>
+		<word type=""NN"" lemma=""saxophone"">saxophone</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""1865"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""1485"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""VP"">
-		<word type=""VB"">Let</word>
+		<word type=""VB"" lemma=""let"">Let</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""PRP"">it</word>
+		<word type=""PRP"" lemma=""it"">it</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VB"">play</word>
+		<word type=""VB"" lemma=""play"">play</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""PRP"">you</word>
+		<word type=""PRP"" lemma=""you"">you</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","1"

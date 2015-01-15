@@ -1,18 +1,6 @@
 import random
-from player_cards.io import load_character_cards, load_character_names
 
-
-def read_dataset():
-    from player_cards.cards import load_cards_dict
-
-    dataset_path = "cards/"
-    black_cards1 = load_cards_dict(dataset_path + 'nonfictional_black_cards.json')
-    white_cards1 = load_cards_dict(dataset_path + 'fictional_white_cards.json')
-
-    black_cards2 = load_cards_dict(dataset_path + 'fictional_black_cards.json')
-    white_cards2 = load_cards_dict(dataset_path + 'nonfictional_white_cards.json')
-
-    return black_cards1, black_cards2, white_cards1, white_cards2
+from cards.io import load_character_cards, load_character_names
 
 
 def select_players(parser, s, n=3):
@@ -20,7 +8,7 @@ def select_players(parser, s, n=3):
     manager = parser.random_manager()
 
     #chose other players
-    players = s.choose_players_random(manager, parser.all_players(), n)
+    players = s.choose_players_random(manager, load_character_names(), n)
     manager = manager["Character"]
 
     return manager, players
@@ -56,8 +44,8 @@ def post_to_twitter(question, answers, time_start=5, time_end=10):
     from tweet import post_tweet, reply_tweet
 
     main_name = question.keys()[0]
-    quote = question[main_name]
-    tweet = main_name + ": " + quote + " #codecampCC"
+    main_quote = question[main_name]
+    tweet = main_name + ": " + main_quote + " #codecampCC"
     reply_id = post_tweet(tweet)
     print reply_id
     print tweet
@@ -65,7 +53,7 @@ def post_to_twitter(question, answers, time_start=5, time_end=10):
 
     names = []
     for name, quote in answers.iteritems():
-        tweet = name + ": " + quote
+        tweet = name + ": " + main_quote.replace("___", "[" + quote + "]")
         reply_tweet(tweet, reply_id)
         print tweet
         names.append(name)
@@ -99,20 +87,22 @@ def evaluate_quotes(reply_id):
     return bot_replies, user_replies
 
 
+
+
 if __name__ == '__main__':
     from time import sleep
-    from input_parser.knowledge_parser import KB_parser
-    from sim.player_similarity import Sim
+    #from input_parser.knowledge_parser import KB_parser
+    #from sim.player_similarity import Sim
 
     print "Hello! I am waking up... its such a lovely morning!"
     print
 
     print "Parser loading ..."
-    parser = KB_parser()
+    #parser = KB_parser()
     print "done!"
 
     print "Simillarity loading ..."
-    simillarity = Sim()
+    #simillarity = Sim()
     print "done!"
 
     # black_cards1, black_cards2, white_cards1, white_cards2 = read_dataset()
@@ -130,16 +120,18 @@ if __name__ == '__main__':
 
         manager_card = random.choice(load_character_cards(manager))
         players_cards = {player: load_character_cards(player) for player in players}
-        #selected_player_cards
+        selected_player_cards = {}
 
         for player, player_cards in players_cards.iteritems():
-            selected_player_card = andrew(manager_card, player_cards)
+            selected_player_cards[player] = select_filler(manager_card, player_cards)
 
         sleep(10)
         #bc_selection, wc_selection = make_selection(parser, simillarity, black_cards, white_cards)
         #question, answers = combine_quotes(bc_selection, wc_selection)
 
-        #reply_id = post_to_twitter(question, answers)
+        reply_id = post_to_twitter(
+            {manager: manager_card.black_string()},
+            {player: card.white_string() for player, card in selected_player_cards.iteritems()})
         #sleep(20)
         #reply_id = post_to_console(question, answers)
         #sleep(5)

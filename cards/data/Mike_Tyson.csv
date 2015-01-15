@@ -1,68 +1,68 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""6796"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""5486"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""DT"">Every</word>
-		<word type=""NN"">fighter</word>
+		<word type=""DT"" lemma=""every"">Every</word>
+		<word type=""NN"" lemma=""fighter"">fighter</word>
 	</chunk>
 	<chink>
-		<word type=""POS"">'s</word>
+		<word type=""POS"" lemma=""'s"">'s</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""VBD"">got</word>
+		<word type=""VBD"" lemma=""get"">got</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""NN"">plan</word>
+		<word type=""DT"" lemma=""a"">a</word>
+		<word type=""NN"" lemma=""plan"">plan</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">until</word>
+			<word type=""IN"" lemma=""until"">until</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">they</word>
+			<word type=""PRP"" lemma=""they"">they</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">get</word>
-		<word type=""VBN"">hit</word>
+		<word type=""VBP"" lemma=""get"">get</word>
+		<word type=""VBN"" lemma=""hit"">hit</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","0"
 "<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""6796"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""5486"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""DT"">Every</word>
-		<word type=""NN"">fighter</word>
+		<word type=""DT"" lemma=""every"">Every</word>
+		<word type=""NN"" lemma=""fighter"">fighter</word>
 	</chunk>
 	<chink>
-		<word type=""POS"">'s</word>
+		<word type=""POS"" lemma=""'s"">'s</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""VBD"">got</word>
+		<word type=""VBD"" lemma=""get"">got</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""DT"">a</word>
-		<word type=""NN"">plan</word>
+		<word type=""DT"" lemma=""a"">a</word>
+		<word type=""NN"" lemma=""plan"">plan</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">until</word>
+			<word type=""IN"" lemma=""until"">until</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""PRP"">they</word>
+			<word type=""PRP"" lemma=""they"">they</word>
 		</chunk>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">get</word>
-		<word type=""VBN"">hit</word>
+		<word type=""VBP"" lemma=""get"">get</word>
+		<word type=""VBN"" lemma=""hit"">hit</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","2"

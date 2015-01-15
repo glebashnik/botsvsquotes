@@ -2,8 +2,8 @@ __author__ = 'alm'
 
 class file_parser:
 
-    _CHAR_FILE = "data/characters_famous_lines.txt"
-    _PEOPLE_FILE = "data/people_famous_lines.txt"
+    _CHAR_FILE = "../data/characters_famous_lines.txt"
+    _PEOPLE_FILE = "../data/people_famous_lines.txt"
 
     def __init__(self):
         self.movie_characters = {}
@@ -29,10 +29,10 @@ class file_parser:
         return result
 
 if __name__ == "__main__":
-    pass
-    #f = file_parser()
-    #print f.people
-    #print f.movie_characters
+    #pass
+    f = file_parser()
+    print f.people
+    print f.movie_characters
 
 
 

@@ -11,7 +11,7 @@ class Card:
 
         self.sentence = text.sentences[sentence_index]
         self.chunk = self.sentence.chunks[chunk_index]
-    
+
     # String with the blank for the black card
     def black_string(self):
         before_sentences = self.text.sentences[0:self.sentence_index]
@@ -28,3 +28,9 @@ class Card:
     # String for the filling in the white card
     def white_string(self):
         return self.chunk.string
+
+    def context_chunks(self):
+        return [chunk for chunk in self.sentence.chunks if chunk != self.chunk]
+
+    def context_words(self):
+        return [[word for word in chunk.words] for chunk in self.context_chunks()]

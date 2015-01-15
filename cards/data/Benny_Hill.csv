@@ -1,21 +1,21 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""911"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""709"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""VP"">
-		<word type=""RB"">That</word>
-		<word type=""VBZ"">'s</word>
+		<word type=""RB"" lemma=""that"">That</word>
+		<word type=""VBZ"" lemma=""be"">'s</word>
 	</chunk>
 	<chink>
-		<word type=""WP"">what</word>
+		<word type=""WP"" lemma=""what"">what</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NN"">show</word>
-		<word type=""NN"">business</word>
-		<word type=""RB"">is--sincere</word>
-		<word type=""NN"">insincerity</word>
+		<word type=""NN"" lemma=""show"">show</word>
+		<word type=""NN"" lemma=""business"">business</word>
+		<word type=""RB"" lemma=""is--sincere"">is--sincere</word>
+		<word type=""NN"" lemma=""insincerity"">insincerity</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","1"

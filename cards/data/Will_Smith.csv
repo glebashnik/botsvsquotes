@@ -1,57 +1,57 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""9532"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""7761"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""RB"">Too</word>
-		<word type=""JJ"">many</word>
-		<word type=""NNS"">people</word>
+		<word type=""RB"" lemma=""too"">Too</word>
+		<word type=""JJ"" lemma=""many"">many</word>
+		<word type=""NNS"" lemma=""person"">people</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">spend</word>
+		<word type=""VBP"" lemma=""spend"">spend</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NN"">money</word>
-		<word type=""PRP"">they</word>
+		<word type=""NN"" lemma=""money"">money</word>
+		<word type=""PRP"" lemma=""they"">they</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">have</word>
-		<word type=""RB"">n't</word>
-		<word type=""VBN"">earned</word>
+		<word type=""VBP"" lemma=""have"">have</word>
+		<word type=""RB"" lemma=""n't"">n't</word>
+		<word type=""VBN"" lemma=""earn"">earned</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""TO"">to</word>
-		<word type=""VB"">buy</word>
+		<word type=""TO"" lemma=""to"">to</word>
+		<word type=""VB"" lemma=""buy"">buy</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NNS"">things</word>
-		<word type=""PRP"">they</word>
+		<word type=""NNS"" lemma=""thing"">things</word>
+		<word type=""PRP"" lemma=""they"">they</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">do</word>
-		<word type=""RB"">n't</word>
-		<word type=""VB"">want</word>
+		<word type=""VBP"" lemma=""do"">do</word>
+		<word type=""RB"" lemma=""n't"">n't</word>
+		<word type=""VB"" lemma=""want"">want</word>
 	</chunk>
 	<chink>
-		<word type="","">,</word>
+		<word type="","" lemma="","">,</word>
 	</chink>
 	<chunk type=""VP"">
-		<word type=""TO"">to</word>
-		<word type=""VB"">impress</word>
+		<word type=""TO"" lemma=""to"">to</word>
+		<word type=""VB"" lemma=""impress"">impress</word>
 	</chunk>
 	<chunk type=""NP"">
-		<word type=""NNS"">people</word>
-		<word type=""PRP"">they</word>
+		<word type=""NNS"" lemma=""person"">people</word>
+		<word type=""PRP"" lemma=""they"">they</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBP"">do</word>
-		<word type=""RB"">n't</word>
-		<word type=""VB"">like</word>
+		<word type=""VBP"" lemma=""do"">do</word>
+		<word type=""RB"" lemma=""n't"">n't</word>
+		<word type=""VB"" lemma=""like"">like</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","2"

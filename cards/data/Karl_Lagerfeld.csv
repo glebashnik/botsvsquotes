@@ -1,57 +1,57 @@
 ﻿"<?xml version=""1.0"" encoding=""UTF-8""?>
 <text>
-<sentence id=""5430"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""4374"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""NP"">
-		<word type=""NNP"">Fantasy</word>
+		<word type=""NNP"" lemma=""fantasy"">Fantasy</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""VBZ"">is</word>
+		<word type=""VBZ"" lemma=""be"">is</word>
 	</chunk>
 	<chunk type=""ADVP"">
-		<word type=""RB"">often</word>
-		<word type=""RBR"">better</word>
+		<word type=""RB"" lemma=""often"">often</word>
+		<word type=""RBR"" lemma=""better"">better</word>
 	</chunk>
 	<chunk type=""PNP"">
 		<chunk type=""PP"">
-			<word type=""IN"">than</word>
+			<word type=""IN"" lemma=""than"">than</word>
 		</chunk>
 		<chunk type=""NP"">
-			<word type=""NN"">reality</word>
+			<word type=""NN"" lemma=""reality"">reality</word>
 		</chunk>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
-<sentence id=""5431"" token=""word, part-of-speech, chunk, preposition"" language=""en"">
+<sentence id=""4375"" token=""word, part-of-speech, chunk, preposition, lemma"" language=""en"">
 	<chunk type=""VP"">
-		<word type=""VBZ"">It’s</word>
+		<word type=""VBZ"" lemma=""it’"">It’s</word>
 	</chunk>
 	<chunk type=""ADJP"">
-		<word type=""RB"">much</word>
-		<word type=""RBR"">more</word>
-		<word type=""JJ"">inspiring</word>
+		<word type=""RB"" lemma=""much"">much</word>
+		<word type=""RBR"" lemma=""more"">more</word>
+		<word type=""JJ"" lemma=""inspiring"">inspiring</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""RB"">not</word>
-		<word type=""TO"">to</word>
-		<word type=""VB"">go</word>
+		<word type=""RB"" lemma=""not"">not</word>
+		<word type=""TO"" lemma=""to"">to</word>
+		<word type=""VB"" lemma=""go"">go</word>
 	</chunk>
 	<chink>
-		<word type=""TO"">to</word>
+		<word type=""TO"" lemma=""to"">to</word>
 	</chink>
 	<chunk type=""NP"">
-		<word type=""NNS"">places</word>
+		<word type=""NNS"" lemma=""place"">places</word>
 	</chunk>
 	<chunk type=""PP"">
-		<word type=""IN"">than</word>
+		<word type=""IN"" lemma=""than"">than</word>
 	</chunk>
 	<chunk type=""VP"">
-		<word type=""TO"">to</word>
-		<word type=""VB"">go</word>
+		<word type=""TO"" lemma=""to"">to</word>
+		<word type=""VB"" lemma=""go"">go</word>
 	</chunk>
 	<chink>
-		<word type=""."">.</word>
+		<word type=""."" lemma=""."">.</word>
 	</chink>
 </sentence>
 </text>","0","4"
