@@ -1,10 +1,17 @@
+# -*- coding: utf-8 -*-
+
 from pattern.vector import Document
-from pattern.vector import distance
 from pattern.text.en import sentiment, wordnet
 from os import path
 import string
-
+import utils
 from gensim.models import Word2Vec
+
+# Create a list of characters to remove from output
+## TODO: Possible way of ignoring hyphens (to properly render compounds, etc): 
+### re.sub("-","",string.punctuation+unicode("”", 'utf-8'))
+exclude = string.punctuation+unicode("”", 'utf-8')
+
 
 
 def gensim_similarity_score_full(quoter_utt, player_utt_list, trained_model):
@@ -20,137 +27,47 @@ def gensim_similarity_score_full(quoter_utt, player_utt_list, trained_model):
         (2) (each quoter's and player's fillers): similarity score
     """
     
-    result_dict_contexts = {}
-    result_dict_fillers = {}
-    exclude = set(string.punctuation)
+    contexts_dict = {}
+    fillers_dict = {}
 
-    def uncontract(s):
-        res = ""
-        if "n't" in s:
-            res = s[0:-3]+" not"
-        elif "'m" in s:
-            res = s[0:-2]+" am"
-        else:
-            res = s
-        return res
-      
-    tmp_quoter_context = " ".join(uncontract(utt).lower() for utt in quoter_utt[0].split(" "))
     # Clean up punctuation characters
-    tmp_quoter_context = "".join(char for char in tmp_quoter_context if char not in exclude)
-    # Construct lists of words for quoter contexts
-    tmp_quoter_context_list = [i for i in tmp_quoter_context.split(" ") if i]
-
-    tmp_player_contexts_list = [
-                               " ".join(uncontract(utt.lower())
-                                    for utt in pl_utt[0].split(" ")) 
-                               for pl_utt in player_utt_list
-                               ]
-
-    tmp_quoter_filler = " ".join(uncontract(utt).lower() for utt in quoter_utt[1].split(" "))
+    # Construct lists of words for quote contexts
+    tmp_quoter_context_list = utils.prep_quote(quoter_utt[0])
+    
     # Clean up punctuation characters
-    tmp_quoter_filler = "".join(char for char in tmp_quoter_filler if char not in exclude)
-    # Construct lists of words for quoter contexts
-    tmp_quoter_filler_list = [i for i in tmp_quoter_filler.split(" ") if i]
+    # Construct lists of words for quote contexts
+    tmp_quoter_filler_list = utils.prep_quote(quoter_utt[1])
 
-    tmp_player_fillers_list = [
-                               " ".join(uncontract(utt.lower()) 
-                                    for utt in pl_utt[1].split(" ")) 
-                               for pl_utt in player_utt_list
-                               ]
+    # Construct lists of words for player contexts and fillers
+    tmp_player_contexts_list, tmp_player_fillers_list = utils.prep_plyr_ctxts_fills(player_utt_list)
 
     for pl_utt in tmp_player_contexts_list:
         
         # Clean up punctuation characters
-        pl_utt = "".join(char for char in pl_utt if char not in exclude)
-        
         # Construct lists of words for player
-        pl_utt_list = [i for i in pl_utt.split(" ") if i]
+        pl_utt_list = utils.prep_plyr_contr(pl_utt)
 
         res = 0.0
         try:
             res = trained_model.n_similarity(tmp_quoter_context_list, pl_utt_list)
         except:
             res = -1
-        result_dict_contexts[(quoter_utt[0], pl_utt)] = res
+        contexts_dict[(quoter_utt[0], pl_utt)] = res
     
     for pl_utt in tmp_player_fillers_list:
 
         # Clean up punctuation characters
-        pl_utt = "".join(char for char in pl_utt if char not in exclude)
-        
         # Construct lists of words for player
-        pl_utt_list = [i for i in pl_utt.split(" ") if i]
+        pl_utt_list = utils.prep_plyr_contr(pl_utt)
 
         res = 0.0
         try:
             res = trained_model.n_similarity(tmp_quoter_filler_list, pl_utt_list)
         except:
             res = -1
-        result_dict_fillers[(quoter_utt[1], pl_utt)] = res
+        fillers_dict[(quoter_utt[1], pl_utt)] = res
          
-    return result_dict_contexts, result_dict_fillers
-    
-
-
-def gensim_similarity_score_phraselist(quoter_utt, player_utt_list, trained_model):
-    
-    result_dict = {}
-    
-    def uncontract(s):
-        return s[0:-2]+" not" if "n't" in s else s
-      
-    tmp_quoter_utt = " ".join(uncontract(utt).lower() 
-                                    for utt in quoter_utt.split(" "))
-    tmp_player_utt_list = [
-                           " ".join(uncontract(utt).lower() 
-                                    for utt in pl_utt.split(" ")) 
-                           for pl_utt in player_utt_list
-                           ]
-
-    for pl_utt in tmp_player_utt_list:
-        result_dict[(quoter_utt, pl_utt)] = trained_model.n_similarity(tmp_quoter_utt.split(" "), pl_utt.split(" "))
-
-    return result_dict 
-    
-
-def gensim_similarity_score_wordlist(str_list1, str_list2, trained_model):
-    
-    results_dict = {}
-    
-    for s1 in str_list1:
-        for s2 in str_list2:
-            results_dict[trained_model.similarity(s1, s2)] = (s1,s2) 
-
-    return results_dict
-
-
-def pattern_similarity_score(s1, s2):
-
-    d1 = Document(s1)#, type="rabbit")
-    d2 = Document(s2)#, type="rabbit")
-    
-    #result = distance(d1.vector, d2.vector, method="euclidean")
-    #result = distance(d1.vector, d2.vector, method="cosine")
-    result = d1.similarity(d2) # (1 - cosine distance)
-    result = "{0:.10f}".format(result)#round(res,10))
-    
-    return result
-
-
-def wordnet_similarity_score(s1, s2):
-    
-    w_sim1 = wordnet.synsets(s1)[0]
-    w_sim2 = wordnet.synsets(s2)[0]
-    
-    result = wordnet.similarity(w_sim1, w_sim2)
-    result = "{0:.10f}".format(result)
-    
-    return result
-
-
-def pattern_sentiment_score(s):
-    
-    return sentiment(s)
+    return contexts_dict, fillers_dict
 
 
 
@@ -190,4 +107,65 @@ if __name__ == '__main__':
         print k[1],"=",v
 
 
+"""
+BELOW ARE SOME EARLIER ATTEMPTS AT SIMILARITY FUNCTIONS, SHOULD EVENTUALLY BE DELETED.
 
+
+def gensim_similarity_score_phraselist(quoter_utt, player_utt_list, trained_model):
+    
+    result_dict = {}
+    
+#    def uncontract(s):
+#        return s[0:-2]+" not" if "n't" in s.lower() else s
+      
+    tmp_quoter_utt = " ".join(utils.uncontract(utt) 
+                                    for utt in quoter_utt.split(" "))
+    tmp_player_utt_list = [
+                           " ".join(utils.uncontract(utt).lower() 
+                                    for utt in pl_utt.split(" ")) 
+                           for pl_utt in player_utt_list
+                           ]
+
+    for pl_utt in tmp_player_utt_list:
+        result_dict[(quoter_utt, pl_utt)] = trained_model.n_similarity(tmp_quoter_utt.split(" "), pl_utt.split(" "))
+
+    return result_dict 
+    
+
+def gensim_similarity_score_wordlist(str_list1, str_list2, trained_model):
+
+    return {
+            trained_model.similarity(s1, s2):(s1,s2)
+            for s1 in str_list1
+            for s2 in str_list2
+            }
+
+
+def pattern_similarity_score(s1, s2):
+
+    d1 = Document(s1)#, type="rabbit")
+    d2 = Document(s2)#, type="rabbit")
+    
+    #result = distance(d1.vector, d2.vector, method="euclidean")
+    #result = distance(d1.vector, d2.vector, method="cosine")
+    result = d1.similarity(d2) # (1 - cosine distance)
+    result = "{0:.10f}".format(result)#round(res,10))
+    
+    return result
+
+
+def wordnet_similarity_score(s1, s2):
+    
+    w_sim1 = wordnet.synsets(s1)[0]
+    w_sim2 = wordnet.synsets(s2)[0]
+    
+    result = wordnet.similarity(w_sim1, w_sim2)
+    result = "{0:.10f}".format(result)
+    
+    return result
+
+
+def pattern_sentiment_score(s):
+    
+    return sentiment(s)
+"""
